@@ -132,3 +132,7 @@ reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><
 ## License
 
 MIT
+
+## Website Theme
+
+This website uses (Reverie)[https://github.com/amitmerchant1990/reverie] as the theme.
