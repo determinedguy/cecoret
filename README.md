@@ -1,7 +1,6 @@
 <div align="center">
   <br>
   <h1>Cecoret</h1>
-  <br>
   <h3>Athal's Personal Blog</h3>
 </div>
 
