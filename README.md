@@ -17,7 +17,7 @@ This repository serves Muhammad Athallah's personal blog.
 
 ## Categories
 
-You can access contents' categories here: <https://determinedguy.github.io/cecoret/categories/>
+You can access contents' categories here: <https://determinedguy.github.io/cecoret/categories>
 
 ## RSS
 
