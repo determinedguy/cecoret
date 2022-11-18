@@ -25,7 +25,7 @@ You can access (generated) RSS Feed of the website here: <https://determinedguy.
 
 ## Sitemap
 
-You can access (generated) sitemap of your website here: <https://determinedguy.github.io/cecoret/sitemap.xml>
+You can access (generated) sitemap of the website here: <https://determinedguy.github.io/cecoret/sitemap>
 
 ## License
 
@@ -33,4 +33,4 @@ MIT
 
 ## Website Theme
 
-This website uses (Reverie)[https://github.com/amitmerchant1990/reverie] as the blog theme.
+This website uses [Reverie](https://github.com/amitmerchant1990/reverie) as the blog theme.
