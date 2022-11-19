@@ -120,15 +120,15 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 
 ## Pembuatan Skrip GitHub Actions
 
-1. Hasilkan sebuah *base64 string* sebagai representasi dari *keystore file* yang akan kita simpan sebagai *environment variable* nantinya.
+1. Hasilkan sebuah `base64` *string* sebagai representasi dari *keystore file* yang akan kita simpan sebagai *environment variable* nantinya.
 
-    Jalankan perintah `openssl base64 -in release-keystore.jks` pada *root folder* untuk menghasilkan *base64 string*. Tampung *string* tersebut untuk sementara waktu (sebagai contoh, dengan menggunakan Notepad atau Visual Studio Code).
+    Jalankan perintah `openssl base64 -in release-keystore.jks` pada *root folder* untuk menghasilkan `base64` *string*. Tampung *string* tersebut untuk sementara waktu (sebagai contoh, dengan menggunakan Notepad atau Visual Studio Code).
 
 2. Buatlah *repository secrets* pada repositori GitHub dengan spesifikasi sebagai berikut.
 
     i. `GH_TOKEN` berisi GitHub (Personal Access) Token dari salah satu admin repositori untuk kepentingan *automated release*.
 
-    ii. `KEY_JKS` berisi *base64 string* dari *keystore file* yang telah kamu buat sebelumnya.
+    ii. `KEY_JKS` berisi `base64` *string* dari *keystore file* yang telah kamu buat sebelumnya.
 
     iii. `KEY_PASSWORD` berisi kata sandi yang kamu gunakan saat kamu membuat *keystore file*.
 
