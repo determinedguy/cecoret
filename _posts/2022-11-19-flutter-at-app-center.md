@@ -127,7 +127,9 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 2. Buatlah *repository secrets* pada repositori GitHub dengan spesifikasi sebagai berikut.
 
     i. `GH_TOKEN` berisi GitHub (Personal Access) Token dari salah satu admin repositori untuk kepentingan *automated release*.
+
     ii. `KEY_JKS` berisi *base64 string* dari *keystore file* yang telah kamu buat sebelumnya.
+
     iii. `KEY_PASSWORD` berisi kata sandi yang kamu gunakan saat kamu membuat *keystore file*.
 
 3. Buka folder `.github/workflows` (buat, jika belum ada).
@@ -209,6 +211,10 @@ App Center menggunakan *bash script* sebagai acuan automasi *build* aplikasi ~~a
 Setelah selesai membuat skrip, kita akan mengonfigurasi aplikasi pada App Center agar dapat dibuat dan dirilis secara otomatis.
 
 ## Konfigurasi Lanjutan pada App Center
+
+1. Buka situs web App Center dan buka halaman detail proyek aplikasi.
+
+2. bentar, ngantuk.
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
