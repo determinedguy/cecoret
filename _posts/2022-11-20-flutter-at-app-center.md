@@ -10,7 +10,7 @@ Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemro
 
 > "Itu mah ez pz; tinggal pake [*script* Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH, 2021<br /> *Be careful though, it is a little bit deprecated!*<br /> Versi terbaru akan dijelaskan di bawah.
 
-Dengan adanya keadaan baru ini, aku merasa harus mencoba untuk melakukan kriteria tersebut sebelum rubrik rilis ke publik. ~~Susah kan ya gais soalnya belum pernah ada yang pernah~~ Jadinya kalau kata orang, {% include pullquote.html quote="'PBP is used to be fun, or is it still?'" %} Jujur; awalnya aku takut bahwa hal ini tidak dapat dilakukan oleh kelompok masing-masing dengan diberikannya rentang waktu yang (sebenarnya) cukup singkat dibandingkan dengan beban yang harus dikerjakan. Hal ini merupakan hal baru dibandingkan rubrik tahun sebelumnya yang (aku jalani sebelumnya dan) hanya mengecek apakah terdapat APK pada proyek kelompok (*regardless whether it is published manually or via GitHub Actions*). Sebagai seorang (~~koordinator~~) asisten dosen yang bertanggung jawab, aku pun mencoba untuk mempublikasikan aplikasi yang (kelompok) aku buat ke *Microsoft Visual Studio App Center*.
+Dengan adanya keadaan baru ini, aku merasa harus mencoba untuk melakukan kriteria tersebut sebelum rubrik rilis ke publik. ~~Susah kan ya gais soalnya belum pernah ada yang pernah~~ Jadinya kalau kata orang, {% include pullquote.html quote="'PBP is used to be fun, or is it still?'" %} Jujur; awalnya aku takut bahwa hal ini tidak dapat dilakukan oleh kelompok masing-masing dengan diberikannya rentang waktu yang (sebenarnya) cukup singkat dibandingkan dengan beban yang harus dikerjakan. Hal ini merupakan hal baru dibandingkan rubrik tahun sebelumnya yang (aku jalani sebelumnya dan) hanya mengecek apakah terdapat APK pada proyek kelompok (*regardless whether it is published manually or via GitHub Actions*). Sebagai seorang ~~koordinator~~ asisten dosen yang bertanggung jawab, aku mencoba untuk mempublikasikan aplikasi yang (kelompok) aku buat ke *Microsoft Visual Studio App Center*.
 
 ## Pengaturan Dasar pada App Center
 
@@ -20,7 +20,7 @@ Ya ... emang iya, hehe. 😅
 
 Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
-> Oh iya, sebenarnya App Center menyediakan fitur *Analytics*, namun kita tidak akan memakainya kali ini karena Flutter belum didukung secara resmi oleh App Center (baru Kotlin/Java, React Native, Xamarin, dan Unity) ~~dan ribet cuy kalau mau maksa, *I have tried and it didn't work so don't waste your time*~~. Kita akan fokus ke pembuatan dan perilisan aplikasi pada App Center saja ~~untuk memenuhi penilaian rubrik secara sempurna~~.
+> Oh iya; sebenarnya App Center menyediakan fitur *Analytics*, namun kita tidak akan memakainya kali ini karena Flutter belum didukung secara resmi oleh App Center (baru Kotlin/Java, React Native, Xamarin, dan Unity) ~~dan ribet cuy kalau mau maksa, *I have tried and it didn't work so don't waste your time*~~. Kita akan fokus ke pembuatan dan perilisan aplikasi pada App Center saja ~~untuk memenuhi penilaian rubrik secara sempurna~~.
 
 **Pastikan kamu telah membuat repositori pada organisasi kelompok kamu dan repositori tersebut setidaknya berisi *codebase* dasar Flutter dan *Application ID* aplikasi sudah diubah.**
 
@@ -248,9 +248,15 @@ Kamu dapat mengecek tautan publik dari publikasi aplikasi pada App Center melalu
 
 ![Public Group](https://i.ibb.co/x1SXKSC/Screenshot-2022-11-20-01-42-12.png)
 
-## Selesai (?)
+## Selesai! Yay~
 
-gue harus tulis apa gitu kali ya biar gak apa kali gitu ....
+Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari melakukan simplifikasi alur pengerjaan), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
+
+Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
+
+**Semangat mencari cara untuk melakukan publikasi aplikasi pada App Center!**
+
+> Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk<br /><br /> *yes that is a joke, thank you very much*.
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
