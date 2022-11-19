@@ -118,7 +118,7 @@ Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani 
 
 Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Selanjutnya, kita akan melakukan modifikasi skrip GitHub Actions *(pembuatan, jika belum)* dan pembuatan skrip baru untuk *build* pada App Center.
 
-## Modifikas (atau Pembuatan) Skrip GitHub Actions
+## Pembuatan Skrip GitHub Actions
 
 1. Hasilkan sebuah *base64 string* sebagai representasi dari *keystore file* yang akan kita simpan sebagai *environment variable* nantinya.
 
