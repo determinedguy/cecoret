@@ -260,11 +260,11 @@ Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
 **Semangat mencari cara untuk melakukan publikasi aplikasi pada App Center!**
 
-> Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br /> *...yes that is a joke, thank you very much*.
+> Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br /> *...yes that is a joke, thank you very much*. 🫰
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
-1. Gradle-nya ngambek; benerin dulu versinya ya. ❤️
-2. Kotlin-nya nggak sesuai versinya; lagi-lagi, benerin dulu versinya ya. ❤️
+1. Gradle-nya ngambek; benerin dulu versinya ya.
+2. Kotlin-nya nggak sesuai versinya; lagi-lagi, benerin dulu versinya ya.
 
 ### Intinya sih satu; sabar. 😂🙏❤️
