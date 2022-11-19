@@ -58,7 +58,7 @@ Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani 
 
 > Panduan asli dapat dilihat disini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
 
-**Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: <https://docs.flutter.dev/deployment/android#adding-a-launcher-icon>
+**Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: [Adding a launcher icon](https://docs.flutter.dev/deployment/android#adding-a-launcher-icon)
 
 1. Buatlah sebuah *keystore*.
 
