@@ -142,7 +142,7 @@ Apabila aplikasi kamu berhasil dibuat dan dirilis otomatis, maka selamat! Sampai
 
 ## Penambahan Skrip CI/CD untuk App Center
 
-App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi ~~agak lain emang dia~~.
+App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi (~~agak lain emang dia~~).
 
 1. Buka folder `/android/app`.
 
