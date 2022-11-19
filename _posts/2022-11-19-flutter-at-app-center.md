@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Microsoft Visual Studio App Center to Publish Flutter Applications
+title: Flutter + GitHub Actions + Microsoft Visual Studio App Center = 🤔
 categories: [Flutter, PBP]
 ---
 
@@ -8,7 +8,9 @@ categories: [Flutter, PBP]
 
 Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemrograman Berbasis Platform (PBP), aku pun harus mengetes apakah rubrik tersebut *feasible* dikerjakan oleh mahasiswa. Salah satu kriteria yang perlu dipenuhi untuk mendapatkan nilai penuh adalah tersedianya aplikasi untuk diuji melalui [*Firebase App Distribution*](https://firebase.google.com/docs/app-distribution) atau [*Microsoft Visual Studio App Center*](https://appcenter.ms/). Tentunya *release* pada GitHub dengan GitHub Actions tetap perlu dipenuhi di samping kriteria tersebut.
 
-> "Itu mah ez pz; tinggal pake [*script* Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH, 2021<br /> *Be careful though, it is a little bit deprecated!*<br /> Versi terbaru akan dijelaskan di bawah.
+> "*Release* mah ez pz; tinggal pake [*script* Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH, 2021<br /> *Be careful though, it is a little bit deprecated!*<br /> Versi terbaru akan dijelaskan di bawah.
+
+![Rubrik APK](https://i.ibb.co/Dw6Kz9n/Selection-742.png)
 
 Dengan adanya keadaan baru ini, aku merasa harus mencoba untuk melakukan kriteria tersebut sebelum rubrik rilis ke publik. ~~Susah kan ya gais soalnya belum pernah ada yang pernah~~ Jadinya kalau kata orang, {% include pullquote.html quote="'PBP is used to be fun, or is it still?'" %} Jujur; awalnya aku takut bahwa hal ini tidak dapat dilakukan oleh kelompok masing-masing dengan diberikannya rentang waktu yang (sebenarnya) cukup singkat dibandingkan dengan beban yang harus dikerjakan. Hal ini merupakan hal baru dibandingkan rubrik tahun sebelumnya yang (aku jalani sebelumnya dan) hanya mengecek apakah terdapat APK pada proyek kelompok (*regardless whether it is published manually or via GitHub Actions*). Sebagai seorang ~~koordinator~~ asisten dosen yang bertanggung jawab, aku mencoba untuk mempublikasikan aplikasi yang (kelompok) aku buat ke *Microsoft Visual Studio App Center*.
 
