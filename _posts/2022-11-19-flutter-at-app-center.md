@@ -250,6 +250,8 @@ Kamu dapat mengecek tautan publik dari publikasi aplikasi pada App Center melalu
 
 ## Selesai (?)
 
+gue harus tulis apa gitu kali ya biar gak apa kali gitu ....
+
 ## Masalah yang (Mungkin) Dapat Terjadi
 
 1. Gradle-nya ngambek; benerin dulu versinya ya. ❤️
