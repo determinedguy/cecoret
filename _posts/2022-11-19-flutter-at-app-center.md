@@ -50,6 +50,10 @@ Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
     ![New Group](https://i.ibb.co/6BqpRFk/Screenshot-2022-11-19-10-40-56.png)
 
-Sampai sini, kita sudah melakukan pengaturan dasar pada App Center.
+Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya, kita akan melakukan pengaturan skrip dan pengesahan (*sign*) pada proyek aplikasi Flutter.
 
-### bentar dulu ya, aku capek :"
+## Pengaturan Pengesahan Aplikasi Flutter
+
+Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin orisinilitasnya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
+
+### bentaran ya, aku capek :"
