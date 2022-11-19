@@ -60,7 +60,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya,
 
 Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin keabsahannya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
 
-> Panduan asli dapat dilihat disini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
+> Panduan asli dapat dilihat di sini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
 
 **Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: [Adding a launcher icon](https://docs.flutter.dev/deployment/android#adding-a-launcher-icon).
 
@@ -262,7 +262,7 @@ Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis 
 
 Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
-**Semangat ya gais buat cari cara untuk melakukan publikasi aplikasi pada App Center!**
+**Semangat ya gais buat cari cara publikasi aplikasi pada App Center!**
 
 > Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br /> *...yes that is a joke, thank you very much*. 🫰
 
