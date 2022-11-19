@@ -8,7 +8,7 @@ Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemro
 
 > "Itu mah ez pz lemon squeeze; tinggal pake script GitHub Actions gue." —LAH
 
-{% include pullquote.html quote="<em>PBP used to be fun, or is it still?</em>" %} Jujur; awalnya aku takut bahwa hal ini tidak dapat dilakukan oleh kelompok masing-masing dengan diberikannya rentang waktu yang (sebenarnya) cukup singkat dibandingkan dengan beban yang harus dikerjakan. Hal ini merupakan hal baru dibandingkan rubrik tahun sebelumnya yang (aku jalani sebelumnya dan) hanya mengecek apakah terdapat APK pada proyek kelompok (*regardless whether it is published manually or via GitHub Actions*). Sebagai seorang asisten dosen yang bertanggung jawab, aku pun mencoba untuk mempublikasikan aplikasi yang (kelompok) aku buat ke *Microsoft Visual Studio App Center*.
+{% include pullquote.html quote="*PBP used to be fun, or is it still?*" %} Jujur; awalnya aku takut bahwa hal ini tidak dapat dilakukan oleh kelompok masing-masing dengan diberikannya rentang waktu yang (sebenarnya) cukup singkat dibandingkan dengan beban yang harus dikerjakan. Hal ini merupakan hal baru dibandingkan rubrik tahun sebelumnya yang (aku jalani sebelumnya dan) hanya mengecek apakah terdapat APK pada proyek kelompok (*regardless whether it is published manually or via GitHub Actions*). Sebagai seorang asisten dosen yang bertanggung jawab, aku pun mencoba untuk mempublikasikan aplikasi yang (kelompok) aku buat ke *Microsoft Visual Studio App Center*.
 
 ## Pengaturan Dasar pada App Center
 
