@@ -22,7 +22,7 @@ Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
 > Oh iya, sebenarnya App Center menyediakan fitur *Analytics*, namun kita tidak akan memakainya kali ini karena Flutter belum didukung secara resmi oleh App Center (baru Kotlin/Java, React Native, Xamarin, dan Unity) ~~dan ribet cuy kalau mau maksa, *I have tried and it didn't work so don't waste your time*~~. Kita akan fokus ke pembuatan dan perilisan aplikasi pada App Center saja ~~untuk memenuhi penilaian rubrik secara sempurna~~.
 
-**Pastikan kamu telah membuat repositori pada organisasi kelompok kamu dan repositori tersebut setidaknya berisi *codebase* dasar Flutter.**
+**Pastikan kamu telah membuat repositori pada organisasi kelompok kamu dan repositori tersebut setidaknya berisi *codebase* dasar Flutter dan *Application ID* aplikasi sudah diubah.**
 
 1. Buatlah akun [App Center](https://appcenter.ms/) menggunakan akun GitHub kamu. Saat melakukan autentikasi pada GitHub SSO, jangan lupa untuk memberikan akses kepada organisasi kelompok kamu dengan menekan tombol `Grant`.
 
@@ -52,13 +52,13 @@ Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
 Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya, kita akan melakukan pengaturan skrip dan pengesahan (*sign*) pada proyek aplikasi Flutter.
 
-## Pengaturan Pengesahan Aplikasi Flutter
+## Pengaturan Dasar Pengesahan Aplikasi Flutter
 
 Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin orisinilitasnya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
 
 > Panduan asli dapat dilihat disini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
 
-**Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: [Adding a launcher icon](https://docs.flutter.dev/deployment/android#adding-a-launcher-icon)
+**Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: [Adding a launcher icon](https://docs.flutter.dev/deployment/android#adding-a-launcher-icon).
 
 1. Buatlah sebuah *keystore*.
 
@@ -83,13 +83,292 @@ Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani 
     *.jks
     ```
 
-2. afh yh dh lupa 💔
+2. Buka berkas `/android/app/build.gradle`.
 
-## Pengubahan Skrip GitHub Actions
+3. Carilah bagian `buildTypes`.
+
+    ```groovy
+       buildTypes {
+            release {
+                // TODO: Add your own signing config for the release build.
+                // Signing with the debug keys for now,
+                // so `flutter run --release` works.
+                signingConfig signingConfigs.debug
+            }
+        }
+    ```
+
+    Ubahlah bagian tersebut menjadi seperti berikut.
+
+    ```groovy
+        signingConfigs {
+            release {
+                    storeFile file("../../release-keystore.jks")
+                    storePassword = "$System.env.KEY_PASSWORD"
+                    keyAlias = "release"
+                    keyPassword = "$System.env.KEY_PASSWORD"
+            }
+        }
+        buildTypes {
+            release {
+                signingConfig signingConfigs.release
+            }
+        }
+    ```
+
+Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Selanjutnya, kita akan melakukan modifikasi skrip GitHub Actions *(pembuatan, jika belum)* dan pembuatan skrip baru untuk *build* pada App Center.
+
+## Modifikas (atau Pembuatan) Skrip GitHub Actions
 
 **Jangan lupa untuk menyimpan *secrets* dengan nama `GH_TOKEN` yang berisi GitHub Token dari salah satu admin repositori untuk kepentingan *automated release*.**
 
+1. Hasilkan sebuah *base64 string* sebagai representasi dari *keystore file* yang akan kita simpan sebagai *environment variable* nantinya.
+
+    Jalankan perintah `openssl base64 -in release-keystore.jks` pada *root folder* untuk menghasilkan *base64 string*. Tampung *string* tersebut untuk sementara waktu (sebagai contoh, dengan menggunakan Notepad atau Visual Studio Code).
+
+2. Buatlah *repository secrets* pada repositori GitHub dengan spesifikasi sebagai berikut.
+
+    i. `GH_TOKEN` berisi GitHub (Personal Access) Token dari salah satu admin repositori untuk kepentingan *automated release*.
+    ii. `KEY_JKS` berisi *base64 string* dari *keystore file* yang telah kamu buat sebelumnya.
+    iii. `KEY_PASSWORD` berisi kata sandi yang kamu gunakan saat kamu membuat *keystore file*.
+
+3. Buka folder `.github/workflows` (buat, jika belum ada).
+
+4. Buatlah tiga file baru dengan spesifikasi berikut.
+
+    `staging.yml` (dengan asumsi *branch* `staging` digunakan untuk menampung kode aplikasi sebelum rilis)
+
+    ```yml
+    name: Staging
+
+    # Controls when the workflow will run
+    on:
+    # Triggers the workflow on push or pull request events but only for the develop branch
+    push:
+        branches: [develop]
+    pull_request:
+        branches: [develop]
+
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+
+    # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    jobs:
+    # This workflow contains a single job called "build"
+    build:
+        name: Analyze
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout the code
+            uses: actions/checkout@v3
+
+        - name: Setup Java
+            uses: actions/setup-java@v3
+            with:
+            distribution: 'zulu'
+            java-version: '11'
+
+        - name: Setup Flutter
+            uses: subosito/flutter-action@v2
+            with:
+            channel: 'stable'
+        
+        - name: Get packages
+            run: flutter pub get
+    ```
+
+    `pre-release.yml` (dengan asumsi *branch* `main` digunakan untuk perilisan kode aplikasi)
+
+    ```yml
+    name: Pre-Release
+
+    # Controls when the workflow will run
+    on: 
+    # Triggers the workflow on pull request events but only for the main branch
+    pull_request:
+        branches: [main]
+    
+    # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    jobs:
+    # This workflow contains a single job called "Build and Pre-Release APK"
+    releases:
+        name: Build and Pre-Release APK
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout the code
+            uses: actions/checkout@v3
+
+        - name: Setup Java
+            uses: actions/setup-java@v3
+            with:
+            distribution: 'zulu'
+            java-version: '11'
+
+        - name: Setup Flutter
+            uses: subosito/flutter-action@v2
+            with:
+            channel: 'stable'
+        
+        - name: Get packages
+            run: flutter pub get
+
+        - name: Generate Java keystore
+            env: 
+            KEY_JKS: ${{ secrets.KEY_JKS }}
+            run: echo "$KEY_JKS" | base64 --decode > upload-keystore.jks 
+                
+        - name: Build APK
+            env:
+            KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+            run: flutter build apk --split-per-abi
+        
+        - name: Pre-release APK by uploading it to Artifacts
+            uses: actions/upload-artifact@v3
+            with:
+            name: APKS
+            path: build/app/outputs/flutter-apk/*.apk
+    ```
+
+    `release.yml` (dengan asumsi *branch* `main` digunakan untuk perilisan kode aplikasi)
+
+    ```yml
+    name: Release
+
+    # Controls when the workflow will run
+    on: 
+    # Triggers the workflow on push events but only for the main branch
+    push:
+        branches: [main]
+    
+    # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    jobs:
+    # This workflow contains a single job called "Build and Release APK"
+    releases:
+        name: Build and Release APK
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout the code
+            uses: actions/checkout@v3
+        
+        - name: Get version from pubspec.yaml
+            id: version
+            run: echo "::set-output name=version::$(grep "version:" pubspec.yaml | cut -c10-)"
+
+        - name: Setup Java
+            uses: actions/setup-java@v3
+            with:
+            distribution: 'zulu'
+            java-version: '11'
+
+        - name: Setup Flutter
+            uses: subosito/flutter-action@v2
+            with:
+            channel: 'stable'
+        
+        - name: Get packages
+            run: flutter pub get
+                
+        - name: Generate Java keystore
+            env: 
+            KEY_JKS: ${{ secrets.KEY_JKS }}
+            run: echo "$KEY_JKS" | base64 --decode > upload-keystore.jks 
+                
+        - name: Build APK
+            env:
+            KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+            run: flutter build apk --split-per-abi
+
+        - name: Get current date
+            id: date
+            run: echo "::set-output name=date::$(TZ='Asia/Jakarta' date +'%A %d-%m-%Y %T WIB')"
+        
+        - name: Release APK
+            uses: ncipollo/release-action@v1
+            with:
+            allowUpdates: true
+            artifacts: "build/app/outputs/flutter-apk/*.apk"
+            body: "Published at ${{ steps.date.outputs.date }}"
+            name: "v${{ steps.version.outputs.version }}"
+            token: ${{ secrets.GH_TOKEN }}
+            tag: ${{ steps.version.outputs.version }}
+    ```
+
+5. Simpan file tersebut dan coba *push* ke repositori. Cek apakah aplikasi berhasil dibuat dan dirilis oleh GitHub Actions secara otomatis.
+
+Apabila aplikasi kamu berhasil dibuat dan dirilis otomatis, maka selamat! Sampai sini, kita sudah mengamankan *workflow* pada GitHub. Selanjutnya, kita akan membuat skrip baru unruk *build* pada App Center dan mengonfigurasi aplikasi secara lebih lanjut pada situs web App Center.
+
 ## Penambahan Skrip CI/CD untuk App Center
+
+App Center menggunakan *bash script* sebagai acuan automasi *build* aplikasi ~~agak lain emang dia~~.
+
+1. Buka folder `/android/app`.
+
+2. Buatlah file baru bernama `appcenter-post-clone.sh` dan isi file tersebut dengan kode berikut.
+
+    ```bash
+    #!/usr/bin/env bash
+    # Place this script in project/android/app/
+
+    cd ..
+
+    # fail if any command fails
+    set -e
+    # debug log
+    set -x
+
+    cd ..
+    git clone -b beta https://github.com/flutter/flutter.git
+    export PATH=`pwd`/flutter/bin:$PATH
+
+    flutter channel stable
+    flutter doctor
+
+    echo "Installed flutter to `pwd`/flutter"
+
+    # export keystore for release
+    echo "$KEY_JKS" | base64 --decode > release-keystore.jks
+
+    # build APK
+    # if you get "Execution failed for task ':app:lintVitalRelease'." error, uncomment next two lines
+    # flutter build apk --debug
+    # flutter build apk --profile
+    flutter build apk --release
+
+    # if you need build bundle (AAB) in addition to your APK, uncomment line below and last line of this script.
+    #flutter build appbundle --release --build-number $APPCENTER_BUILD_ID
+
+    # copy the APK where AppCenter will find it
+    mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/apk/release/app-release.apk $_
+
+    # copy the AAB where AppCenter will find it
+    #mkdir -p android/app/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
+    ```
+
+3. Buka file `/android/app/.gitignore` dan ubahlah file tersebut menjadi berikut. Hal ini dilakukan agar App Center dapat mendeteksi aplikasi sebagai aplikasi Android.
+
+    ```sh
+    # add comment for app center
+    # gradle-wrapper.jar
+    # /gradlew
+    # /gradlew.bat
+    /.gradle
+    /captures/
+    /local.properties
+    GeneratedPluginRegistrant.java
+
+    # Remember to never publicly share your keystore.
+    # See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+    key.properties
+    **/*.keystore
+    **/*.jks
+    ```
+
+4. Simpan file tersebut dan *push* ke repositori. Pastikan skrip ini dan `.gitignore` yang baru telah ter-*push* sampai ke *branch* `main`.
+
+Setelah selesai membuat skrip, kita akan mengonfigurasi aplikasi pada App Center agar dapat dibuat dan dirilis secara otomatis.
 
 ## Konfigurasi Lanjutan pada App Center
 
