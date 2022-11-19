@@ -57,3 +57,10 @@ Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya,
 Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin orisinilitasnya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
 
 ### bentaran ya, aku capek :"
+
+## Masalah yang (Mungkin) Dapat Terjadi
+
+1. Gradle-nya ngambek; benerin dulu versinya ya. ❤️
+2. Kotlin-nya nggak sesuai versinya; lagi-lagi, benerin dulu versinya ya. ❤️
+
+### Intinya sih satu; sabar. ❤️
