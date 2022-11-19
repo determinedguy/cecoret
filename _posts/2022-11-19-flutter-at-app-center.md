@@ -146,7 +146,7 @@ App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi
 
 1. Buka folder `/android/app`.
 
-2. Buatlah file baru bernama `appcenter-post-clone.sh` dan isi file tersebut dengan kode berikut.
+2. Buatlah file baru dengan nama `appcenter-post-clone.sh` dan isi file tersebut dengan kode berikut.
 
     ```bash
     #!/usr/bin/env bash
