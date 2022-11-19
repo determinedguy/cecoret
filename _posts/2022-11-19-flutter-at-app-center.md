@@ -248,6 +248,10 @@ Kamu dapat mengecek tautan publik dari publikasi aplikasi pada App Center melalu
 
 ![Public Group](https://i.ibb.co/x1SXKSC/Screenshot-2022-11-20-01-42-12.png)
 
+Berikut adalah contoh tampilan App Center ketika tautan publik dari publikasi apilkasi diakses oleh pengguna.
+
+![App Release](https://i.ibb.co/hc1B7Kn/Screenshot-2022-11-20-02-12-26.png)
+
 ## Selesai! Yay~
 
 Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari melakukan simplifikasi alur pengerjaan), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
