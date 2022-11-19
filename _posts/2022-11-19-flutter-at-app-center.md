@@ -40,7 +40,7 @@ Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
 4. Isi nama aplikasi dan ikon aplikasi sesuai desain aplikasi. Kamu tidak perlu memilih tipe rilis. Pilih `Android` sebagai OS dan `Java / Kotlin` sebagai Platform.
 
-    ![App Settings](https://i.ibb.co/jTQVtZg/Screenshot-2022-11-19-09-44-58.png)
+    ![App Settings](https://i.ibb.co/4dCbgR0/Screenshot-2022-11-19-09-44-58.png)
 
 5. Buka menu *Distribute* dan buka menu *Groups*.
 
