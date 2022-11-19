@@ -132,7 +132,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 
     iii. `KEY_PASSWORD` berisi kata sandi yang kamu gunakan saat kamu membuat *keystore file*.
 
-3. Buka folder `.github/workflows` (buat, jika belum ada).
+3. Buka (buat, jika belum ada) folder `.github/workflows`.
 
 4. Buatlah tiga file baru dengan spesifikasi yang ada pada [GitHub Gist ini](https://gist.github.com/determinedguy/16add60b5b347c40b75066665110c7bf).
 
