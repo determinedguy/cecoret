@@ -4,6 +4,8 @@ title: Using Microsoft Visual Studio App Center to Publish Flutter Applications
 categories: [Flutter, PBP]
 ---
 
+> Disclaimer: I spent seven hours of doing this stuff.
+
 Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemrograman Berbasis Platform (PBP), aku pun harus mengetes apakah rubrik tersebut *feasible* dikerjakan oleh mahasiswa. Salah satu kriteria yang perlu dipenuhi untuk mendapatkan nilai penuh adalah tersedianya aplikasi untuk diuji melalui [*Firebase App Distribution*](https://firebase.google.com/docs/app-distribution) atau [*Microsoft Visual Studio App Center*](https://appcenter.ms/). Tentunya *release* pada GitHub dengan GitHub Actions tetap perlu dipenuhi di samping kriteria tersebut.
 
 > "Itu mah ez pz; tinggal pake script [GitHub Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH<br /> *Be careful though, it is a little bit deprecated!*
@@ -22,19 +24,31 @@ Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
 
 **Pastikan kamu telah membuat repositori pada organisasi kelompok kamu dan repositori tersebut setidaknya berisi *codebase* dasar Flutter.**
 
-1. Buatlah akun App Center menggunakan akun GitHub kamu. Saat melakukan autentikasi pada GitHub SSO, jangan lupa untuk memberikan akses kepada organisasi kelompok kamu dengan menekan tombol `Grant`.
+1. Buatlah akun [App Center](https://appcenter.ms/) menggunakan akun GitHub kamu. Saat melakukan autentikasi pada GitHub SSO, jangan lupa untuk memberikan akses kepada organisasi kelompok kamu dengan menekan tombol `Grant`.
+
+    ![App Center Login](https://i.ibb.co/wzPtQvw/Screenshot-2022-11-19-09-39-01.png)
 
 2. Buatlah organisasi baru dengan mengakses menu *Add new* -> *Add new organization*. Gunakan nama proyek aplikasi kelompok kamu sebagai nama organisasi.
 
     > Kalau ada teman kamu yang sudah membuat organisasi pada App Center, minta teman kamu undang kamu melalui menu *People* -> *Collaborators* -> *Invite collaborators by email*. Gunakan surel yang kamu pakai untuk akun GitHub.
 
+    ![Dashboard](https://i.ibb.co/N6B952q/Screenshot-2022-11-19-09-41-57.png)
+
 3. Buatlah *slot* aplikasi baru dengan menekan tombol *Add app*.
+
+    ![Add App](https://i.ibb.co/jTQVtZg/Screenshot-2022-11-19-09-44-38.png)
 
 4. Isi nama aplikasi dan ikon aplikasi sesuai desain aplikasi. Kamu tidak perlu memilih tipe rilis. Pilih `Android` sebagai OS dan `Java / Kotlin` sebagai Platform.
 
+    ![App Settings](https://i.ibb.co/jTQVtZg/Screenshot-2022-11-19-09-44-58.png)
+
 5. Buka menu *Distribute* dan buka menu *Groups*.
 
+    ![Groups](https://i.ibb.co/v3BJMSP/Screenshot-2022-11-19-09-49-42.png)
+
 6. Buatlah grup baru dengan menekan tombol tambah. Berikan nama `Public` dan berikan akses publik dengan mengubah *toggle* pada `Allow public access`. Tekan tombol *Create Group* untuk membuat grup baru. Hal ini kita lakukan agar APK yang nantinya dibuat oleh App Center dapat diakses secara publik.
+
+    ![New Group](https://i.ibb.co/6BqpRFk/Screenshot-2022-11-19-10-40-56.png)
 
 Sampai sini, kita sudah melakukan pengaturan dasar pada App Center.
 
