@@ -63,4 +63,4 @@ Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani 
 1. Gradle-nya ngambek; benerin dulu versinya ya. ❤️
 2. Kotlin-nya nggak sesuai versinya; lagi-lagi, benerin dulu versinya ya. ❤️
 
-### Intinya sih satu; sabar. ❤️
+### Intinya sih satu; sabar. 😂🙏❤️
