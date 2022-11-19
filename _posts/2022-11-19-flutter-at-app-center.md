@@ -56,7 +56,42 @@ Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya,
 
 Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin orisinilitasnya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
 
-### bentaran ya, aku capek :"
+> Panduan asli dapat dilihat disini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
+
+**Jangan lupa untuk mengaplikasikan logo atau ikon aplikasi ke dalam proyek aplikasi.** Jika kamu belum mengubahnya, ikuti panduan ini: <https://docs.flutter.dev/deployment/android#adding-a-launcher-icon>
+
+1. Buatlah sebuah *keystore*.
+
+    Untuk pengguna Mac OS atau Linux, jalankan perintah berikut pada Terminal.
+
+    ```bash
+    keytool -genkey -v -keystore ~/release-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias release
+    ```
+
+    Untuk pengguna Windows, jalankan perintah berikut pada Command Prompt.
+
+    ```batch
+    keytool -genkey -v -keystore %userprofile%\release-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias release
+    ```
+
+    Perintah ini berguna untuk menyimpan *keystore file* dengan nama `release-keystore.jks` di direktori `home` kamu dengan alias `release`. Pindahkan file tersebut ke dalam *root folder* proyek aplikasi dan tambahkan sintaks berikut pada file `.gitignore` yang ada di *root folder* proyek aplikasi agar *keystore* tidak dihitung masuk sebagai file yang ada di repositori Git.
+
+    ```sh
+    # Remember to never publicly share your keystore.
+    # See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+    *.keystore
+    *.jks
+    ```
+
+2. afh yh dh lupa 💔
+
+## Pengubahan Skrip GitHub Actions
+
+**Jangan lupa untuk menyimpan *secrets* dengan nama `GH_TOKEN` yang berisi GitHub Token dari salah satu admin repositori untuk kepentingan *automated release*.**
+
+## Penambahan Skrip CI/CD untuk App Center
+
+## Konfigurasi Lanjutan pada App Center
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
