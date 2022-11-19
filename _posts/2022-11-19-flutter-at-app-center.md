@@ -138,7 +138,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 
     `staging.yml` (dengan asumsi *branch* `staging` digunakan untuk menampung kode aplikasi sebelum rilis)
 
-    ```yml
+    ```text
     name: Staging
 
     # Controls when the workflow will run
@@ -180,7 +180,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 
     `pre-release.yml` (dengan asumsi *branch* `main` digunakan untuk perilisan kode aplikasi)
 
-    ```yml
+    ```text
     name: Pre-Release
 
     # Controls when the workflow will run
@@ -217,7 +217,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
         - name: Generate Java keystore
             env: 
             KEY_JKS: ${{ secrets.KEY_JKS }}
-            run: echo "$KEY_JKS" | base64 --decode > upload-keystore.jks 
+            run: echo "$KEY_JKS" | base64 --decode > release-keystore.jks 
                 
         - name: Build APK
             env:
@@ -233,7 +233,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
 
     `release.yml` (dengan asumsi *branch* `main` digunakan untuk perilisan kode aplikasi)
 
-    ```yml
+    ```text
     name: Release
 
     # Controls when the workflow will run
@@ -274,7 +274,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar untuk pengesahan aplikasi. Se
         - name: Generate Java keystore
             env: 
             KEY_JKS: ${{ secrets.KEY_JKS }}
-            run: echo "$KEY_JKS" | base64 --decode > upload-keystore.jks 
+            run: echo "$KEY_JKS" | base64 --decode > release-keystore.jks 
                 
         - name: Build APK
             env:
