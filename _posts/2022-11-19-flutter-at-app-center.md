@@ -212,9 +212,43 @@ Setelah selesai membuat skrip, kita akan mengonfigurasi aplikasi pada App Center
 
 ## Konfigurasi Lanjutan pada App Center
 
-1. Buka situs web App Center dan buka halaman detail proyek aplikasi.
+1. Buka situs web App Center dan buka proyek aplikasi.
 
-2. bentar, ngantuk.
+    ![App Dashboard](https://i.ibb.co/bXgRvXw/Screenshot-2022-11-20-01-29-02.png)
+
+2. Buka menu *Build* dan pilih GitHub sebagai servis penyedia repositori aplikasi. Pilihlah repositori aplikasi proyek kelompok kamu.
+
+    ![Build Dashboard](https://i.ibb.co/02pG0zF/Screenshot-2022-11-20-01-28-57.png)
+
+3. Buka *branch* `main` dan klik tombol *Configure*.
+
+    ![Branch Configuration](https://i.ibb.co/mBJr7bc/Screenshot-2022-11-20-01-31-36.png)
+
+4. Ikuti pengaturan berikut.
+
+    ![Configuration 1](https://i.ibb.co/HVjfGYg/Screenshot-2022-11-20-01-32-17.png)
+    ![Configuration 2](https://i.ibb.co/4msqRTZ/Screenshot-2022-11-20-01-34-00.png)
+    ![Configuration 3](https://i.ibb.co/XYVzxXg/Screenshot-2022-11-20-01-34-11.png)
+
+    Catatan:
+
+    i. Jangan lupa untuk mengganti `KEY_JKS` dan `KEY_PASSWORD` dengan *value* yang sebenarnya.
+
+    ii. Jangan lupa untuk membuat grup `Public` untuk distribusi aplikasi secara publik.
+
+    iii. Salinlah tautan *build badge* dengan format `Markdown` dan tempelkan ke `README.md`.
+
+    ![Badge Configration](https://i.ibb.co/zhgWpy7/Screenshot-2022-11-20-01-35-32.png)
+
+5. Klik tombol `Save & Build` untuk menyimpan konfigurasi dan memulai proses *build* perdana.
+
+> **INGAT!** *Free tier* pada App Center hanya memberikan 1 *build pipeline* per organisasi atau akun, 240 *build minutes* per bulan, dan maksimal 30 menit per *build*. **Harap gunakan kuota yang diberikan <u>dengan bijak</u>.**
+
+Kamu dapat mengecek tautan publik dari publikasi aplikasi pada App Center melalui menu *Distribute* -> *Groups* -> *Public*.
+
+![Public Group](https://i.ibb.co/x1SXKSC/Screenshot-2022-11-20-01-42-12.png)
+
+## Selesai (?)
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
