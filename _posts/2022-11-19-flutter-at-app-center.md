@@ -54,7 +54,7 @@ Sampai sini, kita sudah melakukan pengaturan dasar pada App Center. Selanjutnya,
 
 ## Pengaturan Dasar Pengesahan Aplikasi Flutter
 
-Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin orisinilitasnya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
+Untuk publikasi aplikasi pada App Center, aplikasi Flutter harus ditandatangani atau disahkan menggunakan *key* agar aplikasi yang dirilis dijamin keabsahannya. Oleh karena itu, kita akan membuat *key* untuk aplikasi dan mengaturnya untuk automasi agar skrip CI/CD (baik yang ada pada GitHub Actions dan App Center nantinya) dapat berjalan dengan baik ~~karena hal ini akan menjadi suatu masalah yang *njelimetnya minta ampun gile dah*~~.
 
 > Panduan asli dapat dilihat disini: <https://docs.flutter.dev/deployment/android><br /> Aku akan tetap menjelaskan bagaimana mengesahkan aplikasi Flutter untuk Android, namun ada beberapa hal yang aku modifikasi (hehe).
 
@@ -142,7 +142,7 @@ Apabila aplikasi kamu berhasil dibuat dan dirilis otomatis, maka selamat! Sampai
 
 ## Penambahan Skrip CI/CD untuk App Center
 
-App Center menggunakan *bash script* sebagai acuan automasi *build* aplikasi ~~agak lain emang dia~~.
+App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi ~~agak lain emang dia~~.
 
 1. Buka folder `/android/app`.
 
