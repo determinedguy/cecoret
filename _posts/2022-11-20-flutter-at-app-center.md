@@ -264,7 +264,7 @@ Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis 
 
 Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
-> **Semangat ya gais buat cari cara publikasi aplikasi pada App Center!**<br /><br />
+> **Semangat ya cari cara publikasi aplikasi di App Center!**<br /><br />
 > Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br />
 > *...yes that is a joke, thank you very much*. 🫰
 
