@@ -6,9 +6,9 @@ categories: [Flutter, PBP]
 
 > Disclaimer: I spent seven hours of doing this stuff.
 
-Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemrograman Berbasis Platform (PBP), aku pun harus mengetes apakah rubrik tersebut *feasible* dikerjakan oleh mahasiswa. Salah satu kriteria yang perlu dipenuhi untuk mendapatkan nilai penuh adalah tersedianya aplikasi untuk diuji melalui [*Firebase App Distribution*](https://firebase.google.com/docs/app-distribution) atau [*Microsoft Visual Studio App Center*](https://appcenter.ms/). Tentunya *release* pada GitHub dengan GitHub Actions tetap perlu dipenuhi di samping kriteria tersebut.
+Dengan berlakunya rubrik baru untuk proyek akhir semester pada mata kuliah Pemrograman Berbasis Platform (PBP), aku ~~merasa~~ harus mengetes apakah rubrik tersebut *feasible* dikerjakan oleh mahasiswa. Salah satu kriteria yang perlu dipenuhi untuk mendapatkan nilai penuh adalah tersedianya aplikasi untuk diuji melalui [*Firebase App Distribution*](https://firebase.google.com/docs/app-distribution) atau [*Microsoft Visual Studio App Center*](https://appcenter.ms/). Tentunya *release* pada GitHub dengan GitHub Actions tetap perlu dipenuhi di samping kriteria tersebut.
 
-> "*Release* mah ez pz; tinggal pake [*script* Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH, 2021<br /> *Be careful though, it is a little bit deprecated!*<br /> Versi terbaru akan dijelaskan di bawah.
+> "*Release* mah ez pz; tinggal pake [*script* Actions gue](https://gist.github.com/determinedguy/68b9a39b49099222f7c4b12eb617c643)." —LAH, 2021<br /> *Be careful though, it is a little bit deprecated!*<br /><br /> Versi terbaru akan dijelaskan di bawah.
 
 Ini rubriknya.
 
@@ -264,9 +264,9 @@ Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis 
 
 Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
-**Semangat ya gais buat cari cara publikasi aplikasi pada App Center!**
-
-> Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br /> *...yes that is a joke, thank you very much*. 🫰
+> **Semangat ya gais buat cari cara publikasi aplikasi pada App Center!**<br /><br />
+> Lah iya ya, kalian tinggal baca dokumen ini; hadeh wkwk ...<br /><br />
+> *...yes that is a joke, thank you very much*. 🫰
 
 ## Masalah yang (Mungkin) Dapat Terjadi
 
@@ -274,3 +274,12 @@ Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 2. Kotlin-nya nggak sesuai versinya; lagi-lagi, benerin dulu versinya ya.
 
 ### Intinya sih satu; sabar. 😂🙏❤️
+
+## Referensi
+
+- [Flutter Android App Distribution with Visual Studio AppCenter](https://itnext.io/flutter-android-app-distribution-with-visual-studio-appcenter-1b94f3ee8fd1)
+- [Using AppCenter for Flutter projects](https://rocksolidknowledge.com/articles/using-appcenter-for-flutter-projects)
+- [Deploy Flutter Apps using AppCenter](https://medium.com/@maite.daluz11/deploy-flutter-apps-using-appcenter-ec28e8d940bf)
+- [Flutter & Github actions for a signed APK](https://danielllewellyn.medium.com/flutter-github-actions-for-a-signed-apk-fcdf9878f660)
+- [Visual Studio Code App Center: Android Gradle plugin requires Java 11 to run. You are currently using Java 1.8](https://stackoverflow.com/a/71876102)
+- [Build flutter releases in github actions for production only android for while.](https://gist.github.com/vinicioslc/b9bd073c8013a726033a999db68a45be)
