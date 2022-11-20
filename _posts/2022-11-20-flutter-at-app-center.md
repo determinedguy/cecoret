@@ -243,6 +243,8 @@ Setelah selesai membuat skrip, kita akan mengonfigurasi aplikasi pada App Center
     iii. Salinlah tautan *build badge* dengan format `Markdown` dan tempelkan ke `README.md`.
 
     ![Badge Configration](https://i.ibb.co/zhgWpy7/Screenshot-2022-11-20-01-35-32.png)
+    
+    ![Badge Example](https://i.ibb.co/DtrTPTv/Selection-743.png)
 
 5. Klik tombol `Save & Build` untuk menyimpan konfigurasi dan memulai proses *build* perdana.
 
