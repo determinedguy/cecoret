@@ -260,7 +260,7 @@ Berikut adalah contoh tampilan App Center ketika tautan publik dari publikasi ap
 
 ## Selesai! Yay~
 
-Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari menyederhanakan alur pengerjaan ~~bye analytics~~), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
+Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari menyederhanakan alur pengerjaan ~~*bye analytics*~~), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
 
 Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
