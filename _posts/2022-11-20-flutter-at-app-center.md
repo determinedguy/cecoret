@@ -243,7 +243,7 @@ Setelah selesai membuat skrip, kita akan mengonfigurasi aplikasi pada App Center
     iii. Salinlah tautan *build badge* dengan format `Markdown` dan tempelkan ke `README.md`.
 
     ![Badge Configration](https://i.ibb.co/zhgWpy7/Screenshot-2022-11-20-01-35-32.png)
-    
+
     ![Badge Example](https://i.ibb.co/DtrTPTv/Selection-743.png)
 
 5. Klik tombol `Save & Build` untuk menyimpan konfigurasi dan memulai proses *build* perdana.
@@ -260,7 +260,7 @@ Berikut adalah contoh tampilan App Center ketika tautan publik dari publikasi ap
 
 ## Selesai! Yay~
 
-Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari melakukan simplifikasi alur pengerjaan), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
+Setelah menghabiskan waktu tujuh jam *figuring out things* dan seharian menulis dokumen ini (sembari menyederhanakan alur pengerjaan ~~bye analytics~~), aku rasa hal ini lumayan *feasible* untuk dilakukan pada pengerjaan proyek akhir semester <u>secara berkelompok</u>. Hal ini menjadi sebuah tantangan dan keunikan sendiri pada mata kuliah PBP di semester ini.
 
 Jika kamu mengalami masalah, coba cek bagian bawah dari *post* ini. 😉
 
