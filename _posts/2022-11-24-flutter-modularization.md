@@ -40,8 +40,22 @@ Nih, coba pertimbangkan poin-poin berikut.
 
 1. Waktu *Build*
 
-    Semakin besarnya ukuran aplikasi karena perkembangannya, maka proses kompilasi dan *build* akan memakan waktu yang sangat lama, bahkan bisa sampai berjam-jam. Tentu kita gak mau bete nungguin mantengin kompilasi sambil dengerin kerasnya kipas ~~angin C_sm_s Wadesta~~ laptop atau komputer yang berusaha tetap buat *everything looks cool* 😎. Nah dengan memakai konsep modular ini, proses kompilasi dan *build* dapat dipersingkat hanya dengan mem-*build* modul yang berubah. 🤟
+    Semakin besarnya ukuran aplikasi karena perkembangannya, maka proses kompilasi dan *build* akan memakan waktu yang sangat lama, bahkan bisa sampai berjam-jam. Tentu kita gak mau bete nungguin mantengin kompilasi sambil dengerin kerasnya kipas ~~angin C_sm_s Wadesta~~ laptop atau komputer yang berusaha tetap buat *everything looks cool* 😎. Nah dengan memakai konsep modular ini, proses kompilasi dan *build* dapat dipersingkat dan diringankan hanya dengan mem-*build* modul yang berubah. 🤟
 
 2. Arsitektur Aplikasi
 
+    Udah dibahas dikit sih tadi yekan; monolitik sama modular gimana baik-buruknya. Intinya modular lebih baik buat aplikasi yang udah cukup besar, kompleks, dan sulit untuk dikembangkan di satu tempat. Tapi ada kurangnya, nih. Dengan diterapkannya modularisasi, tingkat kompleksitas aplikasi akan bertambah secara signifikan sehingga diperlukan tim atau orang yang bertanggung jawab atas satu modul tertentu.
+
+    > Cocok sih, buat proyek akhir semester.
+
 3. *Reusability*
+
+    Ketika kita membuat suatu modul, bisa jadi kita tidak hanya menyelesaikan satu solusi yang sedang dikerjakan. Bisa jadi modul yang kita kerjakan adalah fitur umum yang bisa digunakan pada aplikasi lain, contohnya modul autentikasi. Dengan memakai modularisasi, kita bisa menyelesaikan masalah di satu atau beberapa aplikasi dengan hanya mengimpor modul yang telah kita buat sebelumnya. Selain itu, kita juga dapat membuatnya menjadi *open source* lalu mengunggahnya ke *package manager*, seperti `pub`, agar dapat digunakan oleh orang lain sekaligus dikembangkan bersama *developer* lain.
+
+    > Contohnya ya ... [pbp_django_auth](https://pub.dev/packages/pbp_django_auth), hehe.
+
+Udah yakin nih mau lanjut terapin modularisasi? Oke lanjut~
+
+### Eh bentar, modul itu apaan sih sebenarnya?
+
+> yha.
