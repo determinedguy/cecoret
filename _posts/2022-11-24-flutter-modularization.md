@@ -24,7 +24,9 @@ Modularisasi sebenarnya menerapkan konsep *separation of concerns* (SoC) yang in
 
 > Ahay, gak kena timpa git commit lagi dong! 😆
 
-Selain itu, modularisasi bisa buat proses *build* menjadi lebih cepat. Bayangin nih kalau masih keukeuh pake arsitektur monolitik, keseluruhan aplikasi akan dikompilasi dan dibangun ulang saat ada perubahan kode; mau sekecil apapun itu! Kan kasihan komputernya; udah *racing mode* gegara Flutter (*insert fan noise here NGUENGGG*) terus disuruh *build* aplikasi dari awal, gak capek apa tuh?
+Selain itu, modularisasi bisa buat proses *build* menjadi lebih cepat. Bayangin nih kalau masih keukeuh pake arsitektur monolitik, keseluruhan aplikasi akan dikompilasi dan dibangun ulang saat ada perubahan kode; mau sekecil apapun itu!
+
+Kan kasihan komputernya; udah *racing mode* gegara Flutter (*insert fan noise here NGUENGGG*) terus disuruh *build* aplikasi dari awal, gak capek apa tuh? 💔
 
 Nah kalau aplikasi kita udah pake arsitektur modular, maka hanya modul yang memiliki perubahan kode sajalah yang akan di-*build* ulang; canggih!
 
@@ -33,3 +35,13 @@ Manfaat utama terakhir dari modularisasi adalah mudahnya penggunaan kembali (*re
 ### Tapi, kapan sih baiknya pakai konsep ini?
 
 Pastinya nggak semua aplikasi harus dikembangkan pakai arsitektur modular. Misal, sebuah aplikasi sederhana dengan dua halaman statik; tentunya kurang bermanfaat kalau kita maksa aplikasinya dimodularisasi.
+
+Nih, coba pertimbangkan poin-poin berikut.
+
+1. Waktu *Build*
+
+    Semakin besarnya ukuran aplikasi karena perkembangannya, maka proses kompilasi dan *build* akan memakan waktu yang sangat lama, bahkan bisa sampai berjam-jam. Tentu kita gak mau bete nungguin mantengin kompilasi sambil dengerin kerasnya kipas ~~angin C_sm_s Wadesta~~ laptop atau komputer yang berusaha tetap buat *everything looks cool* 😎. Nah dengan memakai konsep modular ini, proses kompilasi dan *build* dapat dipersingkat hanya dengan mem-*build* modul yang berubah. 🤟
+
+2. Arsitektur Aplikasi
+
+3. *Reusability*
