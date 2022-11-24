@@ -58,4 +58,7 @@ Udah yakin nih mau lanjut terapin modularisasi? Oke lanjut~
 
 ### Eh bentar, modul itu apaan sih sebenarnya?
 
-> yha.
+> Kamu nanya?<br/ >
+> Kamu bertanya-tanya?<br />
+> Sini biar aku kasih tahu ya.<br />
+> Rawr~
