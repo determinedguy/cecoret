@@ -24,6 +24,10 @@ udah deh harusnya kelar, paling restart app atau redeploy.
 
 oh iya, ubah url app biar lebih mudah diakses.
 
+### Cons
+
+Sadly capped to 500 hours of running time per month; jadinya cuma bisa up till 20 days-ish.a
+
 ## Referensi
 
 - [Migrating From Heroku To Railway](https://blog.railway.app/p/railway-heroku-rails)
