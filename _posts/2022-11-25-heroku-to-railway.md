@@ -26,7 +26,7 @@ oh iya, ubah url app biar lebih mudah diakses.
 
 ### Cons
 
-Sadly capped to 500 hours of running time per month; jadinya cuma bisa up till 20 days-ish.a
+Sadly capped to 500 hours of running time per month; jadinya cuma bisa up till 20 days-ish.
 
 ## Referensi
 
