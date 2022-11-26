@@ -4,9 +4,6 @@ title: Pindah dari Heroku ke Railway
 categories: [PBP, Heroku, Railway, Django]
 ---
 
-> Padahal aslinya hari ini (26 November 2022) mau nginep sama Ayah (kebetulan lagi di Jakarta),
-> tapi kerjaan ini belum kelar 😭 yaudahlahya 😔
-
 ## Bye bye, Heroku!
 
 Seperti yang telah kita ketahui bersama, *free tier* dari Heroku Dynos, Postgres dan Data for Redis sudah tidak ada lagi setelah 28 November 2022. Tentunya hal ini mengecewakan kita semua sebagai pemakai Heroku yang setia untuk segala tugas kuliah. 🥹
@@ -116,6 +113,11 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
 2. Perhatikan bagian `Domains` dan ubahlah URL sesuka hatimu (usahakn konsisten dengan URL sebelumnya yang dipakai di Heroku).
 
 ### Dah, kelar.
+
+## Trivia
+
+> Padahal aslinya hari ini (26 November 2022) mau nginep sama Ayah (kebetulan lagi di Jakarta),
+> tapi kerjaan ini belum kelar 😭 yaudahlahya 😔
 
 ## Referensi
 
