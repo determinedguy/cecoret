@@ -4,7 +4,10 @@ title: Pindah dari Heroku ke Railway
 categories: [PBP, Heroku, Railway, Django]
 ---
 
-### bentar, masih cecoret; nanti dirapihin.
+> Padahal aslinya hari ini (26 November 2022) mau nginep sama Ayah (kebetulan lagi di Jakarta),
+> tapi kerjaan ini belum kelar 😭 yaudahlahya 😔
+
+### bentar, masih cecoret; nanti dirapihin
 
 <https://railway.app/heroku>
 
