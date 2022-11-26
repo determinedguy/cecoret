@@ -25,7 +25,7 @@ Salah satu solusi yang "mendingan" adalah [Railway](https://railway.app/). Kenap
     - Per bulan cuma dikasih jatah USD 5 dan 500 jam *running time*; aplikasi akan dimatikan *deployment*-nya saat salah satu dari keduanya habis duluan.
         > Kalau diestimasi, aplikasi bisa nyala secara terus-menerus selama 20 harian per bulan.
 
-        > Kalau udah mati, gimana? Harus *restart* ulang secara manual, gais.
+        > Kalau udah mati, gimana? Harus *restart* ulang aplikasi secara manual, gais.
 
 Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
