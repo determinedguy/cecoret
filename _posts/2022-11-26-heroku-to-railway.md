@@ -102,7 +102,7 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
 
 3. Buka servis PostgreSQL dan buka menu `Variables`. Simpanlah informasi mengenai basis data Railway di suatu tempat (contohnya Notepad).
 
-4. Buka Terminal atau COmmand Prompt dan jalankan perintah berikut.
+4. Buka Terminal atau Command Prompt dan jalankan perintah berikut.
 
     ```bash
     pg_restore --no-privileges --no-owner -U postgres -h <RAILWAY_DATABASE_URL> -p <RAILWAY_PORT> -W -F t -d railway heroku_dump
