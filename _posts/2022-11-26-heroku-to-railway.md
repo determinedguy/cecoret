@@ -88,7 +88,7 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
 
 3. Buka menu `Settings` dan klik `View Credentials…`. Simpanlah informasi mengenai basis data Heroku di suatu tempat (contohnya Notepad).
 
-4. Buka Terminal atau COmmand Prompt dan jalankan perintah berikut.
+4. Buka Terminal atau Command Prompt dan jalankan perintah berikut.
 
     ```bash
     pg_dump -U <USERNAME> -h <HEROKU_DATABASE_URL> -p <HEROKU_PORT> -W -F t <DATABASE_NAME> > heroku_dump
@@ -112,7 +112,7 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
 
 1. Buka servis `web` dan buka menu `Settings`.
 
-2. Perhatikan bagian `Domains` dan ubahlah URL sesuka hatimu (usahakn konsisten dengan URL sebelumnya yang dipakai di Heroku).
+2. Perhatikan bagian `Domains` dan ubahlah URL sesuai dengan URL sebelumnya yang dipakai di Heroku.
 
 ### Dah, kelar.
 
