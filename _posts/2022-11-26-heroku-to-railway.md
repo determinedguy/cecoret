@@ -13,13 +13,14 @@ Seperti yang telah kita ketahui bersama, *free tier* dari Heroku Dynos, Postgres
 
 Sudah dilakukan pencarian, penelitian, dan percobaan selama beberapa bulan belakangan oleh tim asisten dosen Pemrograman Berbasis Platform dan ... susah sekali gais ternyata nyari PaaS yang nggak *self-host* dan bisa menyediakan kemampuan yang sama seperti *free tier* Heroku. 💔
 
-Salah satu solusi yang "mendingan" adalah [Railway](https://railway.app/). Kenapa "mendingan" (pakai tanda kutip)? Berikut plus dan minus dari Railway.
+Salah satu solusi yang "mendingan" adalah [Railway](https://railway.app/). Kenapa "mendingan" (pakai tanda kutip)? Berikut adalah kelebihan dan kekurangan dari Railway.
 
 - Plus
     - Nggak butuh kartu kredit 🤩
     - Mendukung migrasi dari Heroku secara *out-of-the-box* 😍
     - Dukungan basis data (termasuk PostgreSQL)
     - Menyediakan *hosting* secara gratis (tentunya dengan domain khusus)
+    - Aplikasi nyala terus (nggak kayak Heroku yang **sengaja** mematikan aplikasi jika tidak dipakai dalam kurun waktu tertentu) 🥳
 - Minus
     - Per bulan cuma dikasih jatah USD 5 dan 500 jam *running time*; aplikasi akan dimatikan *deployment*-nya saat salah satu dari keduanya habis duluan.
         > Kalau diestimasi, aplikasi bisa nyala secara terus-menerus selama 20 harian per bulan.
