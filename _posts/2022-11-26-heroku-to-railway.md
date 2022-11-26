@@ -48,6 +48,8 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 3. Hapus file workflow yang ada pada folder `.github/workflows/` (atau kalau mau, hapus saja foldernya sekalian).
 
+4. Jangan lupa untuk `add`-`commit`-`push` ke GitHub.
+
 ## Registrasi Akun dan Impor Repositori
 
 1. Buka situs web [Railway](https://railway.app/heroku) dan klik tombol `New Project`.
