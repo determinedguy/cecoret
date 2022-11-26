@@ -32,7 +32,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 1. Buka file `Procfile` dan ubah isi file menjadi seperti berikut.
 
-    ```procfile
+    ```sh
     web: python manage.py migrate && gunicorn project_django.wsgi
     ```
 
