@@ -91,7 +91,7 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
 4. Buka Terminal atau Command Prompt dan jalankan perintah berikut.
 
     ```bash
-    pg_dump -U <USERNAME> -h <HEROKU_DATABASE_URL> -p <HEROKU_PORT> -W -F t <DATABASE_NAME> > heroku_dump
+    pg_dump -U <USERNAME> -h <HEROKU_DATABASE_HOST> -p <HEROKU_PORT> -W -F t <DATABASE_NAME> > heroku_dump
     ```
 
 ## Membuat dan Mengimpor Basis Data di Railway
