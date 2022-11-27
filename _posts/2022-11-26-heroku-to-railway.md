@@ -114,7 +114,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 4. Buka Terminal atau Command Prompt dan jalankan perintah berikut.
 
     ```bash
-    pg_restore --no-privileges --no-owner -U postgres -h <RAILWAY_DATABASE_URL> -p <RAILWAY_PORT> -W -F t -d railway heroku_dump
+    pg_restore --no-privileges --no-owner -U postgres -h <RAILWAY_DATABASE_HOST> -p <RAILWAY_PORT> -W -F t -d railway heroku_dump
     ```
 
 ## Konfigurasi Tambahan: URL
