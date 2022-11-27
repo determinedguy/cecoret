@@ -20,9 +20,10 @@ Salah satu solusi yang "mendingan" adalah [Railway](https://railway.app/). Kenap
     - Aplikasi nyala terus (nggak kayak Heroku yang **sengaja** mematikan aplikasi jika tidak dipakai dalam kurun waktu tertentu) 🥳
 - Minus
     - Per bulan cuma dikasih jatah USD 5 dan 500 jam *running time*; aplikasi akan dimatikan *deployment*-nya saat salah satu dari keduanya habis duluan.
-        > Kalau diestimasi, aplikasi bisa nyala secara terus-menerus selama 20 harian per bulan.
 
-        > Kalau udah mati, gimana? Harus *restart* ulang aplikasi secara manual, gais.
+        Kalau diestimasi, aplikasi bisa nyala secara terus-menerus selama 20 harian per bulan.
+
+        Kalau udah mati, gimana? Harus *restart* ulang aplikasi secara manual, gais.
 
 Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
@@ -34,7 +35,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
     web: python manage.py migrate && gunicorn project_django.wsgi
     ```
 
-2. Buka file `settings.py` yang ada pada folder `project_django/` perhatikan bagian berikut.
+2. Jika kamu menggunakan templat dari "zaman baheula" (<https://github.com/laymonage/django-template-heroku>), buka file `settings.py` yang ada pada folder `project_django/` perhatikan bagian berikut.
 
     ```python
     ALLOWED_HOSTS = [f'{HEROKU_APP_NAME}.herokuapp.com']
@@ -45,6 +46,8 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
     ```python
     ALLOWED_HOSTS = [f'{HEROKU_APP_NAME}.up.railway.app']
     ```
+
+    Jika kamu menggunakan templat dari PBP Ganjil 2022/2023 (<https://github.com/pbp-fasilkom-ui/django-pbp-template>), kamu tidak perlu melakukan langkah ini.
 
 3. Hapus file workflow yang ada pada folder `.github/workflows/` (atau kalau mau, hapus saja foldernya sekalian).
 
