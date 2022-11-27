@@ -63,4 +63,4 @@ Udah yakin nih mau lanjut terapin modularisasi? Oke lanjut~
 > Sini biar aku kasih tahu ya.<br />
 > Rawr~
 
-Pada Flutter, sebuah modul didefinisikan sebagai package atau plugin. Seperti yang sudah kita tahu, package merupakan satu paket kode yang ditulis menggunakan bahasa Dart untuk menjalankan sebuah tugas tertentu dan dapat kita tambahkan ke dalam aplikasi. Bagaimana dengan plugin? Plugin sendiri merupakan jenis package yang spesial karena tidak hanya ditulis dengan Dart, tetapi juga bisa menggunakan Android (Java & Kotlin), iOS (Swift & Objective-C), web, dan desktop.
+Pada Flutter, sebuah modul didefinisikan sebagai sebuah *package* atau *plugin*. *Package* dalam Flutter merupakan sebuah paket kode yang ditulis menggunakan bahasa Dart untuk menjalankan sebuah tugas tertentu dan dapat kita tambahkan ke dalam sebuah proyek aplikasi. *Plugin* dalam Flutter merupakan jenis *package* yang spesial karena tidak hanya ditulis dengan Dart, tetapi juga bisa menggunakan Android (Java & Kotlin), iOS (Swift & Objective-C), web, dan desktop.
