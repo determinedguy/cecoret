@@ -29,6 +29,8 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 ## Konfigurasi Proyek
 
+**Diasumsikan proyek Django kamu bernama** `project_django`.
+
 1. Buka file `Procfile` dan ubah isi file menjadi seperti berikut.
 
     ```sh
@@ -71,6 +73,8 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 ## Impor Variabel Heroku
 
+**Jika kamu tidak memiliki *environment variables* pada proyek Heroku kamu, kamu dapat melewati langkah ini.**
+
 1. Buka servis web, klik `Variables`, tekan Control + K atau Command + K, dan pilih menu `Import Variables From Heroku`.
 
 2. Klik `Connect` dan sesuaikan pengaturan sesuai akun dan proyek yang telah dibuat sebelumnya.
@@ -83,7 +87,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 ## Ekspor Basis Data dari Heroku
 
-Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
+**Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.**
 
 1. Buka situs web [Heroku](https://dashboard.heroku.com/apps) dan buka proyek tengah semester kamu.
 
@@ -98,6 +102,8 @@ Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.
     ```
 
 ## Membuat dan Mengimpor Basis Data di Railway
+
+**Pastikan kamu telah menginstal PostgreSQL di komputer lokalmu.**
 
 1. Bukalah halaman utama proyek di Railway dan tekan Control + K atau Command + K.
 
