@@ -37,7 +37,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
     web: python manage.py migrate && gunicorn project_django.wsgi
     ```
 
-2. Jika kamu menggunakan templat dari "zaman baheula" (<https://github.com/laymonage/django-template-heroku>), buka file `settings.py` yang ada pada folder `project_django/` perhatikan bagian berikut.
+2. Jika kamu menggunakan templat <https://github.com/laymonage/django-template-heroku>, buka file `settings.py` yang ada pada folder `project_django/` perhatikan bagian berikut.
 
     ```python
     ALLOWED_HOSTS = [f'{HEROKU_APP_NAME}.herokuapp.com']
