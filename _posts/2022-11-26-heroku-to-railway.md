@@ -125,6 +125,50 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 ### Dah, kelar.
 
+## Troubleshooting
+
+1. "500 Internal Server Error, kak 😭"
+
+    Buka `settings.py` dari *main project* dan perhatikan bagian berikut.
+
+    ```python
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    ```
+
+    Ubah menjadi seperti berikut.
+
+    ```python
+    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+    ```
+
+    Buka `Procfile` kamu dan ubahlah isinya menjadi seperti berikut.
+
+    ```sh
+    web: python manage.py migrate && python manage.py collectstatic --no-input && gunicorn <PROJECT_NAME>.wsgi
+    ```
+
+    Jangan lupa untuk `add`-`commit`-`push` agar perubahan diterapkan kepada aplikasi kamu.
+
+2. "CSRF Verification Error, kak 😔"
+
+    > This will be a bit complicated.
+
+    Buka `settings.py` dari *main project* dan perhatikan bagian berikut.
+
+    ```python
+    ALLOWED_HOSTS = ["*"]
+    ```
+
+    Tambahkan bagian berikut di bawahnya.
+
+    ```python
+    CSRF_TRUSTED_ORIGINS = [f'{APP_NAME}.up.railway.app']
+    ```
+
+    Buka proyek Railway kamu, buka servis web, buka bagian variabel, dan tambahkan variabel baru dengan nama `APP_NAME` dan isi *value* dengan nama app kamu yang kamu gunakan sebagai URL proyek.
+
+    Jangan lupa untuk *restart* atau *redeploy* aplikasi kamu.
+
 ## Trivia
 
 > Padahal aslinya hari ini (26 November 2022) mau nginep sama Ayah (kebetulan lagi di Jakarta),
@@ -136,3 +180,4 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 - [How to Backup and Restore Your Postgres Database](https://blog.railway.app/p/postgre-backup)
 - [How can I download db from heroku?](https://stackoverflow.com/questions/17022571/how-can-i-download-db-from-heroku)
 - [pg_restore error: role XXX does not exist](https://stackoverflow.com/questions/37271402/pg-restore-error-role-xxx-does-not-exist)
+- [Django returning 500 Internal Server Error instead of index.html when Debug = False](https://stackoverflow.com/a/73189200)
