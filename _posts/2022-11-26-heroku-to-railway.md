@@ -151,8 +151,6 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
 
 2. "CSRF Verification Error, kak 😔"
 
-    > This will be a bit complicated.
-
     Buka `settings.py` dari *main project* dan perhatikan bagian berikut.
 
     ```python
