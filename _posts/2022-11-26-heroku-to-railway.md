@@ -162,7 +162,7 @@ Yakin mau lanjut migrasi ke rel kereta api? Oke lanjut~
     Tambahkan bagian berikut di bawahnya.
 
     ```python
-    CSRF_TRUSTED_ORIGINS = [f'{APP_NAME}.up.railway.app']
+    CSRF_TRUSTED_ORIGINS = [f'https://{APP_NAME}.up.railway.app']
     ```
 
     Buka proyek Railway kamu, buka servis web, buka bagian variabel, dan tambahkan variabel baru dengan nama `APP_NAME` dan isi *value* dengan nama app kamu yang kamu gunakan sebagai URL proyek.
