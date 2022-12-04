@@ -44,7 +44,7 @@ Nih, coba pertimbangkan poin-poin berikut.
 
 2. Arsitektur Aplikasi
 
-    Udah dibahas dikit sih tadi ya kan; monolitik sama modular gimana baik-buruknya. Intinya modular lebih baik buat aplikasi yang udah cukup besar, kompleks, dan sulit untuk dikembangkan di satu tempat. Tapi ada kurangnya, nih. Dengan diterapkannya modularisasi, tingkat kompleksitas aplikasi akan bertambah secara signifikan sehingga diperlukan tim atau orang yang bertanggung jawab atas satu modul tertentu.
+    Udah dibahas dikit sih tadi ya kan; monolitik sama modular gimana baik-buruknya. Intinya modular lebih baik buat aplikasi yang udah cukup besar, kompleks, dan sulit untuk dikembangkan di satu tempat. Tapi ada kurangnya, nih. Dengan diterapkannya modularisasi, tingkat kompleksitas aplikasi akan bertambah secara signifikan sehingga diperlukan tim atau orang yang bertanggung jawab atas satu modul tertentu. 🤔
 
     > Cocok sih, buat proyek akhir semester.
 
