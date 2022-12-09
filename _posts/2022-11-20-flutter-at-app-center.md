@@ -191,7 +191,7 @@ App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi
     #mkdir -p android/app/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
     ```
 
-3. Buka file `/android/app/.gitignore` dan ubahlah file tersebut menjadi berikut. Hal ini dilakukan agar App Center dapat mendeteksi aplikasi sebagai aplikasi Android.
+3. Buka file `/android/.gitignore` dan ubahlah file tersebut menjadi berikut. Hal ini dilakukan agar App Center dapat mendeteksi aplikasi sebagai aplikasi Android.
 
     ```sh
     # add comment for app center
