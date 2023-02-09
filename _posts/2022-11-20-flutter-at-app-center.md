@@ -22,7 +22,7 @@ Dengan adanya keadaan baru ini, aku merasa harus mencoba untuk melakukan kriteri
 
 Ya ... emang iya, hehe. 😅
 
-Oke; tanpa basa-basi, mari kita ~~coba~~ laksakanan~
+Oke; tanpa basa-basi, mari kita ~~coba~~ laksanakan~
 
 > Oh iya; sebenarnya App Center menyediakan fitur *Analytics*, namun kita tidak akan memakainya kali ini karena Flutter belum didukung secara resmi oleh App Center (baru Kotlin/Java, React Native, Xamarin, dan Unity) ~~dan ribet cuy kalau mau maksa, *I have tried and it didn't work so don't waste your time*~~. Kita akan fokus ke pembuatan dan perilisan aplikasi pada App Center saja ~~untuk memenuhi penilaian rubrik secara sempurna~~.
 
@@ -191,7 +191,7 @@ App Center menggunakan *bash script* untuk menjalankan automasi *build* aplikasi
     #mkdir -p android/app/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
     ```
 
-3. Buka file `/android/app/.gitignore` dan ubahlah file tersebut menjadi berikut. Hal ini dilakukan agar App Center dapat mendeteksi aplikasi sebagai aplikasi Android.
+3. Buka file `/android/.gitignore` dan ubahlah file tersebut menjadi berikut. Hal ini dilakukan agar App Center dapat mendeteksi aplikasi sebagai aplikasi Android.
 
     ```sh
     # add comment for app center
