@@ -4,7 +4,7 @@ title: Pengalaman Mengikuti JLPT N5
 categories: [Language, Japanese, JLPT, Exam]
 ---
 
-## よろしくおねがいします。
+## よろしくおねがいします
 
 > Ini aslinya udah mau ditulis sejak lama,
 > tapi sibuk mulu jadinya nggak sempet 🥹.
