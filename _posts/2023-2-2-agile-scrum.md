@@ -82,6 +82,8 @@ Berikut adalah ilustrasi pilar Scrum yang dapat menggambarkan maksud dari setiap
 
 ![Ilustrasi Pilar Scrum](https://lh4.googleusercontent.com/FSC5tt6MzXd7POxyo6r-ZNkbIzJ61QQHDj_jHzxad6mxQK9MqheOItQRq2HHKG97nZMsF7SW50DSR5M6EAdJuNX1ltYGh6d1tCgQ9IZnQ-Oef-1Vr1_qX8iWJ85PU4TmMCuLJkj3)
 
+Pada setiap Sprint, Scrum "diketuai" oleh *Scrum Master* yang bertugas untuk mendukung atau menyokong keseluruhan tim untuk bekerja sesuai dengan kaidah Scrum. Hal ini dilakukan agar setiap fase dalam Scrum bisa berjalan secara tertib sehingga nilai dari hasil yang ada dapat sesuai dengan rencana yang sudah dibuat.
+
 Secara ringkas, Scrum terdiri dari empat fase.
 
 1. *Inception* (Sprint 0)
