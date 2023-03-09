@@ -102,7 +102,7 @@ Secara ringkas, Scrum terdiri dari empat fase.
 
     Setelah menyelesaikan Sprint, ada baiknya untuk merefleksikan apa yang telah dilakukan sebelumnya agar Sprint selanjutnya bisa lebih baik. Karena itulah adanya fase ini. 😉
 
-### Kapan sebaiknya Scrum dipakai?
+## Kapan sebaiknya Scrum dipakai?
 
 Beruntungnya, [Ralph Stacey](https://en.wikipedia.org/wiki/Ralph_D._Stacey) telah membuat sebuah diagram yang mengilustrasikan penyesuaian kebutuhan proyek dengan realisasi teknologi yang dapat dilakukan.
 
@@ -112,7 +112,7 @@ Kalau proyek memiliki *requirements* yang jelas dan teknologinya khalayak terken
 
 Kalau proyeknya nggak jelas, teknologinya masih asing, skalanya kompleks (waduh!), mending pakai metode terapan lainnya.
 
-### Emang ada metode terapan Agile selain Scrum?
+## Emang ada metode terapan Agile selain Scrum?
 
 Ada, dong!
 
@@ -138,13 +138,13 @@ Ada, dong!
 
     Kamu dapat membaca informasi mengenai Kanban lebih lanjut [disini](https://sis.binus.ac.id/2018/03/09/knowing-agile-development-methodologies-kanban/).
 
-### Jadi, pilih yang mana dong?
+## Jadi, pilih yang mana dong?
 
 Tinjau dengan skala dan teknologi proyek, lalu sesuaikan dengan Stacey Matrix yang sebelumnya telah dibahas. Tidak semua proyek perlu menggunakan metode *geeky* ini, dan tidak semua proyek dapay diselesaikan dengan metode Scrum karena ... *it's not one-size-fits-all*! Diskusikan juga dengan individu dan tim yang terlibat dalam pengembangan proyek.
 
 Setelah mendapatkan metode yang sesuai dengan keadaan, *don't forget to work responsibly and have fun*! 😉
 
-### Daftar Pustaka
+## Daftar Pustaka
 
 - [Wiki PPL CSUI](https://wiki.ppl.cs.ui.ac.id/doc/panduan-scrum-ZD0IkkG3si)
 - [Pengeritan Agile dan Scrum - Hacktiv8 Blog](https://blog.hacktiv8.com/membedah-pengertian-agile-scrum/)
