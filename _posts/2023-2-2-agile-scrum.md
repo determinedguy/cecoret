@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Agile, Scrum, dan Lainnya
-categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah, Agile, Scrum]
+categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah]
 ---
 
 > Note: Still under construction.
@@ -84,9 +84,67 @@ Berikut adalah ilustrasi pilar Scrum yang dapat menggambarkan maksud dari setiap
 
 ![Ilustrasi Pilar Scrum](https://lh4.googleusercontent.com/FSC5tt6MzXd7POxyo6r-ZNkbIzJ61QQHDj_jHzxad6mxQK9MqheOItQRq2HHKG97nZMsF7SW50DSR5M6EAdJuNX1ltYGh6d1tCgQ9IZnQ-Oef-1Vr1_qX8iWJ85PU4TmMCuLJkj3)
 
-### Kapan sebaiknya dipakai?
+Secara ringkas, Scrum terdiri dari empat fase.
 
-Jika skala proyek berukuran kecil atau tidak kompleks, maka sebaiknya tidak usah menggunakan metode-metode *fancy* ini (karena lebih baik tidak menyusahkan diri sendiri, hehe).
+1. *Inception* (Sprint 0)
+
+    Pada fase ini, visi proyek diperjelas dengan adanya pembuatan *Product Requirement Document* (PRD). Selain itu, *epic* mulai didefinisikan dan dielaborasikan. *Epic* sendiri merupakan pekerjaan-pekerjaan besar yang dapat dipecah menjadi beberapa bagian yang lebih kecil. *Product backlog* pun mulai disusun dan *user story*-nya didefinisikan dengan kriteria **INVEST** (Independent, Negotiable, Valuable, Estimate-able, Small, Testable).
+
+2. *Sprint Planning*
+
+    Pada fase ini, tim memutuskan *backlog* apa saja yang akan dikerjakan di sebuah sprint. Pertimbangan yang dipakai dapat berupa *value* yang diberikan setelah sprint selesai, jumlah *backlog* yang dapat diselesaikan dalam satu sprint, dan cara penyelesaian *backlog* yang telah dipilih untuk dikerjakan.
+
+3. *Sprint* (*Core*)
+
+    Pada fase ini, setiap implementasi kode dari *user story* yang digunakan harus dimasukkan ke dalam repositori. Selain itu, *Scrum Board* harus diperbarui secara berkala; contohnya apakah *task* yang dikerjakan sudah selesai atau belum.
+
+    *Daily standup meeting* dilakukan minimal dua kali per minggu. Hari untuk *daily standup meeting* ditentukan sejak awal, bersifat *fixed* untuk setiap minggunya, dan berselang minimal dua hari. Pada setiap *daily standup meeting*, sebaiknya sudah ada *merge request* dari setiap individu yang terlibat. *Backlog* diperbarui dan di-*maintain* secara rutin oleh *Product Owner* apabila diperlukan.
+
+4. *Sprint Review* dan *Sprint Retrospective*
+
+    Setelah menyelesaikan Sprint, ada baiknya untuk merefleksikan apa yang telah dilakukan sebelumnya agar Sprint selanjutnya bisa lebih baik. Karena itulah adanya fase ini. 😉
+
+### Kapan sebaiknya Scrum dipakai?
+
+Beruntungnya, [Ralph Stacey](https://en.wikipedia.org/wiki/Ralph_D._Stacey) telah membuat sebuah diagram yang mengilustrasikan penyesuaian kebutuhan proyek dengan realisasi teknologi yang dapat dilakukan.
+
+![Stacey Matrix](https://d1dwq032kyr03c.cloudfront.net/upload/images/20190901/20106486xmqWZDWa46.jpg)
+
+Kalau proyek memiliki *requirements* yang jelas dan teknologinya khalayak terkenal atau simpel, maka sebaiknya tidak usah menggunakan metode-metode *fancy* ini (karena lebih baik tidak menyusahkan diri sendiri, hehe); sebaiknya pakai Waterfall saja.
+
+Kalau proyeknya nggak jelas, teknologinya masih asing, skalanya kompleks (waduh!), mending pakai metode terapan lainnya.
+
+### Emang ada metode terapan Agile selain Scrum?
+
+Ada, dong!
+
+- *Extreme Programming* (XP)
+
+    Metode terapan ini sangat identik dengan *pair programming*; membuat program secara berdampingan agar ada umpan balik secara kontinu. XP berfokus pada komunikasi, kesederhanaan, umpan balik, rasa hormat (*respect*), dan keberanian.
+
+    Kalau kamu tertarik dengan metode XP, kamu dapat membacanya lebih lanjut [disini](https://serupa.id/extreme-programming-xp-definisi-nilai-tahapan/).
+
+- Crystal
+
+    Metode ini jarang didengar, namun tetap menjadi salah satu opsi yang lumayan diketahui oleh perusahaan-perusahaan besar. Tidak seperti metodologi lainnya, metode Crystal Agile memprioritaskan interaksi, orang, keterampilan, bakat, dan komunikasi daripada proses dan alat bantu. Dengan prinsip tersebut, Crystal meningkatkan produktivitas tim dan membuat setiap produk bersifat unik.
+
+    Kalau kamu tertarik dengan metode Crystal, kamu dapat membacanya lebih lanjut [disini](https://monday.com/blog/project-management/agile-crystal/).
+
+- Kanban
+
+    Kalau kalian pernah lihat *Kanban Board*, ya ... memang ini yang dimaksud. 😊
+
+    *Kanban Board* biasanya dibagi menjadi empat bagian; *to-do*, *code*, *testing*, dan *done*. Dengan adanya visualisasi berupa *Kanban Board*, tingkat fleksibilitas pengerjaan proyek dapat lebih terkontrol karena kita dapat mengetahui apakah ada *bottleneck* dan kesalahan yang dapat dengan mudah diubah.
+
+    ![Contoh Kanban Board](https://sis.binus.ac.id/wp-content/uploads/2018/03/yttrytr-640x321.png)
+
+    Kamu dapat membaca informasi mengenai Kanban lebih lanjut [disini](https://sis.binus.ac.id/2018/03/09/knowing-agile-development-methodologies-kanban/).
+
+### Jadi, pilih yang mana dong?
+
+Tinjau dengan skala dan teknologi proyek, lalu sesuaikan dengan Stacey Matrix yang sebelumnya telah dibahas. Tidak semua proyek perlu menggunakan metode *geeky* ini, dan tidak semua proyek dapay diselesaikan dengan metode Scrum karena ... *it's not one-size-fits-all*! Diskusikan juga dengan individu dan tim yang terlibat dalam pengembangan proyek.
+
+Setelah mendapatkan metode yang sesuai dengan keadaan, *don't forget to work responsibly and have fun*! 😉
 
 ### Daftar Pustaka
 
@@ -94,3 +152,4 @@ Jika skala proyek berukuran kecil atau tidak kompleks, maka sebaiknya tidak usah
 - [Pengeritan Agile dan Scrum - Hacktiv8 Blog](https://blog.hacktiv8.com/membedah-pengertian-agile-scrum/)
 - [Mengenali Konsep Agile, Scrum, dan Sprint a la Perusahaan IT - Binar Academy](https://www.binaracademy.com/blog/mengenali-konsep-agile-scrum-dan-sprint)
 - [Apa itu Scrum? - AWS](https://aws.amazon.com/id/what-is/scrum/)
+- [The Stacey Matrix - Explained - The Business Professor, LLC](https://thebusinessprofessor.com/management-leadership-organizational-behavior/the-stacey-matrix-explained)
