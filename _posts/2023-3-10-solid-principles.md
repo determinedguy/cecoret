@@ -30,13 +30,25 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
 
 1. **S**ingle Responsibility
 
-2. **O**pen/Closed
+    Prinsip ini menyatakan bahwa sebuah kelas harus memiliki satu dan **hanya** satu alasan untuk berubah, sehingga berarti bahwa sebuah kelas **hanya boleh memiliki satu pekerjaan**.
+
+2. **O**pen-Closed
+
+    Prinsip ini menyatakan bahwa obyek atau entitas harus **terbuka untuk ekstensi**, namun **tertutup untuk modifikasi**.
 
 3. **L**iskov Substitution
 
+    > Misalkan q(x) adalah properti yang dapat dibuktikan tentang objek x bertipe T, maka q(y) harus dapat dibuktikan untuk objek y bertipe S di mana S adalah subtipe dari T.
+
+    Hayo loh, bingung nggak tuh?
+
 4. **I**nterface Segregation
 
+    Prinsip ini menyatakan bahwa klien **tidak boleh dipaksa** untuk **mengimplementasikan antarmuka yang tidak digunakannya** atau **bergantung pada metode yang tidak mereka gunakan**.
+
 5. **D**ependency Inversion
+
+    Prinsip ini menyatakan bahwa entitas harus bergantung pada abstraksi, bukan pada konkresi. Dengan kata lain, modul tingkat tinggi tidak boleh bergantung pada modul tingkat rendah, tetapi mereka harus bergantung pada abstraksi.
 
 ## Kenapa harus SOLID?
 
