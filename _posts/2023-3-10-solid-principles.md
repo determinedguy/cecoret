@@ -4,7 +4,7 @@ title: Prinsip SOLID untuk Pemrograman Berbasis Obyek
 categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah]
 ---
 
-> Still in consctruction.
+> Still in construction, sorry for the inconveniences.
 
 ## "Kita harus SOLID!"
 
