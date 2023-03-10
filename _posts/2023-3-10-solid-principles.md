@@ -32,6 +32,77 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
 
     Prinsip ini menyatakan bahwa sebuah kelas harus memiliki satu dan **hanya** satu alasan untuk berubah, sehingga berarti bahwa sebuah kelas **hanya boleh memiliki satu pekerjaan**.
 
+    Bagaimana prinsip ini (yang biasa disingkat menjadi SRP) dapat menolong kita untuk membuat perangkat lunak yang kokoh? Mari kita lihat tiga kasus berikut.
+
+    1. Pengetesan
+
+        Dengan prinsip SRP, kasus uji yang perlu dibuat untuk sebuah kelas menjadi lebih sedikt. Hal ini dikarenakan tanggung jawab kelas yang diuji dipastikan hanya berupa satu pekerjaan.
+
+    2. *Lower coupling*
+
+        Dependensi antar kelas tentunya akan berkurang karena sebuah kelas memiliki fungsionalitas yang lebih sedikit.
+
+    3. Struktur Organisasi
+
+        Kelas yang lebih kecil dan teratur tentunya lebih mudah dicari daripada kelas monolitik.
+
+    Contoh kasus untuk prinsip ini adalah sebagai berikut.
+
+    Misalkan ada sebuah kelas yang mengandung informasi terkait profil seorang mahasiswa. Pada kelas tersebut, kita menyimpan informasi berupa nama, nomor identitas, jurusan, dan status keaktifan mahasiswa.
+
+    ```java
+    public class Profile {
+
+        private String name;
+        private long idNumber;
+        private String major;
+        private boolean isActive;
+
+        //constructor, getter dan setter
+    }
+    ```
+
+    Mari kita coba tambahkan fungsi tambahan yang berhubungan langsung dengan atribut kelas `Profile`.
+
+    ```java
+    public class Profile {
+
+        private String name;
+        private long idNumber;
+        private String major;
+        private boolean isActive;
+
+        //constructor, getter dan setter
+
+        // fungsi yang berhubungan langsung dengan atribut profil
+        public String replaceMajor(String oldMajor, String newMajor){
+            return major.replaceAll(oldMajor, newMajor);
+        }
+    }
+    ```
+
+    Wah! Sepertinya kelas `Profile` sekarang bersih. Namun, bagaimana jika kita ingin membuat fungsi *logging* untuk mencetak informasi profil? Apakah kita akan membuatnya di dalam kelas `Profile`?
+
+    Tentu tidak, karena hal ini melanggar SRP. 😉
+
+    Oleh karena itu, kita perlu membuat kelas terpisah untuk membuat fungsi *logging* kelas `Profile`.
+
+    ```java
+    public class ProfileLogger {
+
+        // fungsi cetak profil 
+        void printProfileInfo(String text){
+            // kode cetak profil
+        }
+
+        void printProfileInfoToWebsite(String text){
+            // kode cetak profil ke situs web
+        }
+    }
+    ```
+
+    Dengan demikian, setiap kelas menerapkan SRP dengan baik dan benar.
+
 2. **O**pen-Closed
 
     Prinsip ini menyatakan bahwa obyek atau entitas harus **terbuka untuk ekstensi**, namun **tertutup untuk modifikasi**.
