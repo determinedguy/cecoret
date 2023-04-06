@@ -1,12 +1,12 @@
 ---
 layout: post
-title: *test-driven development* (TDD)
+title: Pengembangan Berbasis Tes (TDD)
 categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah]
 ---
 
 > Still in construction, sorry for the inconveniences.
 
-Mungkin konsep ini sudah pernah didengar, namun dalam bahasa lain. Yak, *test-driven development* adalah *test-driven development*; biasanya disingkat dengan istilah TDD (tapi bukan *T-shirt driven development* 🤭)
+Mungkin konsep ini sudah pernah didengar, namun dalam bahasa lain. Yak, pengembangan berbasis tes adalah *test-driven development*; biasanya disingkat dengan istilah TDD (tapi bukan *T-shirt driven development* 🤭)
 
 Konsep ini sebenarnya cukup kontroversial di dunia pengembangan aplikasi; beberapa *programmer* beranggapan bahwa konsep atau metode ini membutuhkan waktu yang sangat banyak, sehingga proses pengembangan aplikasi menjadi cukup lama dan melelahkan. Namun, manfaat yang diperoleh dari konsep ini tidaklah sedikit.
 
