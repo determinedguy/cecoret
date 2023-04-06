@@ -26,6 +26,8 @@ Pada *test-driven development*, terdapat tiga fase yang umumnya diketahui; *red*
 
 - Fase *refactor* berarti fase improvisasi kode fungsi yang telah dibuat sebelumnya dengan menerapkan prinsip *refactoring*, sehingga prinsip *clean code* dapat terpenuhi.
 
+Berikut adalah siklus *test-driven development* dengan penjelasan tiap fase secara singkat.
+
 ![Gambar Fase TDD](https://miro.medium.com/v2/resize:fit:700/1*tZSwCigaTaJdovyWlp5uBQ.jpeg)
 
 ## Gimana sih contoh praktik TDD?
