@@ -34,6 +34,14 @@ Berikut adalah siklus *test-driven development* dengan penjelasan tiap fase seca
 
 Sebagai contoh kasus, kamu akan membuat sebuah aplikasi kalkulator sederhana.
 
+## Apakah terdapat ketentuan khusus pada *commit messsage*?
+
+Seingatku, sebenarnya tidak ada ketentuan khusus yang diterima secara umum mengenai hal ini pada prinsip TDD. Saat aku belajar TDD pada konteks pengembangan aplikasi Flutter, aku tidak diajarkan mengenai *commit message* yang berkaitan dengan fase TDD. Namun pada mata kuliah PPL, terdapat ketentuan khusus mengenai *commit message* yang diajarkan di kelas.
+
+## Apa sih manfaat dari TDD?
+
+TDD memiliki banyak sekali manfaat yang dapat membuat proses pengembangan aplikasi terasa *smooth*.
+
 ## Daftar Pustaka
 
 - [Test Driven Development: Arti, Manfaat, dan Cara Melakukannya](https://glints.com/id/lowongan/test-driven-development/)
