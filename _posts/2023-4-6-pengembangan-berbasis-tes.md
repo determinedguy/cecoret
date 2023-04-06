@@ -18,7 +18,13 @@ Berikut adalah siklus *test-driven development* secara sederhana.
 
 ![Gambar Siklus TDD](https://miro.medium.com/v2/resize:fit:475/1*Mjb3IFooRmFumA2IgNEWbw.png)
 
-Pada *test-driven development*, terdapat tiga fase yang umumnya diketahui; *red*, *green*, dan *refactor*. Secara sekilas, makna dari setiap fase dapat ditebak. Fase *red* berarti fase pembuatan tes sebagai pondasi pengembangan. Warna merah sendiri mengindikasikan status tes yang belum terpenuhi oleh aplikasi, karena tentunya tes baru saja dibuat sehingga belum ada fungsi aplikasi yang memenuhi tes tersebut. Fase *green* berarti fase pembuatan fungsi aplikasi yang memenuhi tes yang telah dibuat sebelumnya. Warna hijau mengindikasikan status tes yang telah terpenuhi oleh fungsi aplikasi yang telah dikembangkan pada fase ini. Fase *refactor* berarti fase improvisasi kode fungsi yang telah dibuat sebelumnya dengan menerapkan prinsip *refactoring*, sehingga prinsip *clean code* dapat terpenuhi.
+Pada *test-driven development*, terdapat tiga fase yang umumnya diketahui; *red*, *green*, dan *refactor*. Secara sekilas, makna dari setiap fase dapat ditebak. Berikut adalah penjelasan singkat mengenai setiap fase yang ada pada TDD.
+
+- Fase *red* berarti fase pembuatan tes sebagai pondasi pengembangan. Warna merah sendiri mengindikasikan status tes yang belum terpenuhi oleh aplikasi, karena tentunya tes baru saja dibuat sehingga belum ada fungsi aplikasi yang memenuhi tes tersebut.
+
+- Fase *green* berarti fase pembuatan fungsi aplikasi yang memenuhi tes yang telah dibuat sebelumnya. Warna hijau mengindikasikan status tes yang telah terpenuhi oleh fungsi aplikasi yang telah dikembangkan pada fase ini.
+
+- Fase *refactor* berarti fase improvisasi kode fungsi yang telah dibuat sebelumnya dengan menerapkan prinsip *refactoring*, sehingga prinsip *clean code* dapat terpenuhi.
 
 ![Gambar Fase TDD](https://miro.medium.com/v2/resize:fit:700/1*tZSwCigaTaJdovyWlp5uBQ.jpeg)
 
