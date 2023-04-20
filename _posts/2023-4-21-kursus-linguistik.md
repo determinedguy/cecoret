@@ -121,8 +121,8 @@ Setelah mencari-cari program *Minor in Lingustics* di Internet, aku akan mencoba
 
     The requirements for the Linguistics minor differ depending on your college:
 
-        - Students in the College of Arts and Sciences
-        - Students in the College of Education
+    - Students in the College of Arts and Sciences
+    - Students in the College of Education
 
     1. Students in the College of Arts and Sciences
 
