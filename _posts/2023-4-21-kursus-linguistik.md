@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kursus Linguistik, Kenapa Tidak?
-categories: [Language, Linguistic, Online Course, Never-Ending Learning]
+categories: [Language, Linguistics, Online Course, Never-Ending Learning]
 ---
 
 ## Kenapa tiba-tiba, Thal?
