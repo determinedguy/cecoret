@@ -632,6 +632,8 @@ Berikut adalah daftar kursus yang dapat dipertimbangkan untuk aku ambil nantinya
 
         Hanya terdapat satu versi di OCW, yaitu versi [Fall 2018](https://ocw.mit.edu/courses/24-917-conlangs-how-to-construct-a-language-fall-2018/).
 
+Kayaknya [Saylor Academy](https://www.saylor.org/) juga keren, tapi belum tahu sih kursusnya apakah fit dengan bidang linguistik; *we'll see later*.
+
 ## What is your takeaway?
 
 Belum tahu, kan belum selesai hehe.
