@@ -563,7 +563,7 @@ Berikut adalah daftar kursus yang sedang atau sudah aku ambil.
 
 1. [Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language/) (FINISHED)
 
-    Kursus yang ditawarkan oleh Universiteit Leiden ini keren; materi perkenalan, fonologi, fonetik, morfologi, sintaks, pragmatik, semantik, bahasa di otak dan masyarakat diajarkan secara interaktif dan komprehensif. Menurutku, kursus ini bisa dibilang sebagai kursus *all-in-one* untuk seseorang yang belum pernah belajar linguistik (*though I would explore more courses and reclarify this*, hehe). Ada beberapa bahasa yang menjadi kasus uji untuk perbandingan sintaks dan semantik, seperti bahasa Basque, Mandarin, Tarifit Berber, Turki, Abruzzese, dan lain-lainnya. Pokoknya materinya menurutku udah keren banget.
+    Kursus yang ditawarkan oleh Universiteit Leiden ini keren; materi perkenalan, fonologi, fonetik, morfologi, sintaks, pragmatik, semantik, bahasa di otak dan masyarakat diajarkan secara interaktif dan komprehensif. Menurutku, kursus ini bisa dibilang sebagai kursus *all-in-one* untuk seseorang yang belum pernah belajar linguistik (*though I would explore more courses and reclarify this*, hehe). Ada enam bahasa yang menjadi kasus uji untuk perbandingan sintaks dan semantik, yakni bahasa Basque, Mandarin, Tarifit Berber, Turki, Abruzzese, dan Gungbe. Pokoknya materinya menurutku udah keren banget.
 
     Tapi jujur, kuisnya cukup menantang dan ada tugas tambahan kalau mau dapat gelar *honors*. Aku sendiri belum tertarik untuk mengambil gelarnya, karena yang penting kelar dulu hehe.
 
