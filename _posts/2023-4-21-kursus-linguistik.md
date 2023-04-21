@@ -561,7 +561,7 @@ Nggak juga, kok. 😉 Kamu dapat mengklaim *financial aid* di Coursera sampai 10
 
 Berikut adalah daftar kursus yang sedang atau sudah aku ambil.
 
-1. [Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language/) (FINISHED)
+1. [Miracles of Human Language: An Introduction to Linguistics](https://www.coursera.org/learn/human-language/) **(FINISHED)**
 
     Kursus yang ditawarkan oleh Universiteit Leiden ini keren; materi perkenalan, fonologi, fonetik, morfologi, sintaks, pragmatik, semantik, bahasa di otak dan masyarakat diajarkan secara interaktif dan komprehensif. Menurutku, kursus ini bisa dibilang sebagai kursus *all-in-one* untuk seseorang yang belum pernah belajar linguistik (*though I would explore more courses and reclarify this*, hehe). Ada enam bahasa yang menjadi kasus uji untuk perbandingan sintaks dan semantik, yakni bahasa Basque, Mandarin, Tarifit Berber, Turki, Abruzzese, dan Gungbe. Pokoknya materinya menurutku udah keren banget.
 
@@ -569,7 +569,13 @@ Berikut adalah daftar kursus yang sedang atau sudah aku ambil.
 
     [*Here is my certificate.*](https://coursera.org/share/74bd50bb573b01e63dd242875ad2bc75)
 
-2. [Introduction to Comparative Indo-European Linguistics](https://www.coursera.org/learn/comparative-indo-european-linguistics)
+2. [The Bilingual Brain](https://www.coursera.org/learn/bilingual/) **(FINISHED)**
+
+    Kursus yang ditawarkan oleh University of Houston ini sangat menarik. Teori *early language acquisition* dan pemikiran kognitif yang dialami oleh pembicara bilingual dijelaskan secara bertahap. Video disusun secara sistematis dan durasi setiap video tidak terlalu lama, sehingga kursus bisa dipelajari dengan santai. Terdapat juga rekaman *office hours* yang memuat pertanyaan-pertanyaan dari forum dan dijawab oleh tim pengajar kursus. Kalau menurut mata kuliah di MIT, seharusnya kursus ini sudah mencakup Language Acquisition (walau aku rasa tidak semuanya dicover) dan The Linguistic Study of Bilingualism. 😆
+
+    [*Here is my certificate.*](https://coursera.org/share/1dec8d8e06df79fffafe382606551474)
+
+3. [Introduction to Comparative Indo-European Linguistics](https://www.coursera.org/learn/comparative-indo-european-linguistics)
 
     Baru masuk *wishlist* (sudah *enroll* sih), soalnya belum mulai belajar dan masih menunggu jatah *financial aid* buat klaim (karena bisanya audit doang, ehe).
 
