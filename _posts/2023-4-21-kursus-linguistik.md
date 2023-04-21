@@ -642,7 +642,13 @@ Belum tahu, kan belum selesai hehe.
 
 ## What is your next plan?
 
-Belum tahu juga, kan belum selesai hehe.
+Pagi ini (21 April 2023), aku ditanya oleh temanku (Hai, Azzam :3) apakah mungkin kita dapat mengerjakan soal-soal dari [International Linguistics Olympiad](https://ioling.org) setelah menyelesaikan kursus **An Introduction to Linguistics** dari **Leiden University**.
+
+> Hm, jujur baru pernah dengar IOL dan kayaknya seru.
+
+Setelah aku coba baca *problem set* secara sekilas, kayaknya akan seru kalau aku coba mengerjakan soal-soal ini setelah aku merasa pengetahuan aku di ilmu linguistik sudah cukup. 😋
+
+> More ideas would be added!
 
 [24.900]: http://student.mit.edu/catalog/m24b.html#24.900
 [24.9000]: http://student.mit.edu/catalog/m24b.html#24.9000
