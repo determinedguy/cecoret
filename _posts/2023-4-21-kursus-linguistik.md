@@ -14,7 +14,7 @@ Dulu tuh sebenarnya udah ada niatan *double degree* ilmu komputer (di universita
 
 > Kuliah satu gelar aja udah stres, cuy!
 
-Jadinya dari awal masuk kuliah, aku cuma belajar bahasa secara mandiri (via Duolingo terutama). *What kind of language, you might ask?* Bahasa Jerman, Prancis, Arab, Spanyol, Belanda, Arab, Korea, Mandarin, Jepang, Italia ... kalau masalah mencicipi bahasa emang banyak, hehe. 😅
+Jadinya dari awal masuk kuliah, aku cuma belajar bahasa secara mandiri (via Duolingo terutama). *What kind of language, you might ask?* Bahasa Jerman, Prancis, Arab, Spanyol, Polandia, Belanda, Arab, Rusia, Korea, Mandarin, Jepang, Italia ... kalau masalah mencicipi bahasa emang banyak, hehe. 😅
 
 Dulu sempat dua bulan kursus bahasa Prancis dan Jepang secara daring pas semester empat, terus sekarang lagi ambil mata kuliah bahasa Italia (yep, masuk jadi SKS mata kuliah pilihan) sama kursus bahasa Jepang untuk persiapan kerja.
 
@@ -46,8 +46,8 @@ Setelah mencari-cari program *Minor in Lingustics* di Internet, aku akan mencoba
 
             One subject chosen from:
 
-            - [24.900] Introduction to Linguistics (CI-H)
-            - [24.9000] How Language Works
+            - [24.900] Introduction to Linguistics (CI-H) [Units: 4-0-8]
+            - [24.9000] How Language Works [Units: 4-0-8]
 
             note: 24.900 and 24.9000 are equivalent subjects; credit cannot be received for both.
 
@@ -55,21 +55,21 @@ Setelah mencari-cari program *Minor in Lingustics* di Internet, aku akan mencoba
 
             Three subjects:
 
-            - [24.901] Language and Its Structure I: Phonology
-            - [24.902] Language and Its Structure II: Syntax
-            - [24.903] Language and Its Structure III: Semantics and Pragmatics
+            - [24.901] Language and Its Structure I: Phonology [Units: 3-0-9]
+            - [24.902] Language and Its Structure II: Syntax [Units: 3-0-9]
+            - [24.903] Language and Its Structure III: Semantics and Pragmatics [Units: 3-0-9]
 
         - Tier III
 
             Two subjects chosen from:
 
-            - [24.904] Language Acquisition
-            - [24.905J] Psycholinguistics
-            - [24.906J] The Linguistic Study of Bilingualism
-            - [24.909] Field Methods in Linguistics
-            - [24.910] Advanced Topics in Linguistic Analysis
-            - [24.914] Language Variation and Change
-            - [24.915] Linguistic Phonetics
+            - [24.904] Language Acquisition [Units: 3-0-9]
+            - [24.905J] Psycholinguistics [Units: 3-3-6]
+            - [24.906J] The Linguistic Study of Bilingualism [Units: 3-0-9]
+            - [24.909] Field Methods in Linguistics [Units: 3-1-8]
+            - [24.910] Advanced Topics in Linguistic Analysis [Units: 3-0-9]
+            - [24.914] Language Variation and Change [Units: 3-0-9]
+            - [24.915] Linguistic Phonetics [Units: 3-0-9]
 
     2. [Undergraduate HASS Concentration in Linguistics](https://linguistics.mit.edu/concentration/)
 
@@ -596,7 +596,7 @@ Berikut adalah daftar kursus yang dapat dipertimbangkan untuk aku ambil nantinya
 
 3. MIT Linguistics
 
-    Beruntungnya, MIT sangat dermawan untuk membagikan isi mata kuliah yang diajarkan melalui [MIT OpenCourseWare](https://ocw.mit.edu/)
+    Beruntungnya, MIT sangat dermawan untuk membagikan isi mata kuliah yang diajarkan melalui [MIT OpenCourseWare](https://ocw.mit.edu/).
 
     1. 24.900 Introduction to Linguistics
 
@@ -614,11 +614,17 @@ Berikut adalah daftar kursus yang dapat dipertimbangkan untuk aku ambil nantinya
 
         Hanya terdapat satu versi di OCW, yaitu versi [Spring 2005](https://ocw.mit.edu/courses/24-903-language-and-its-structure-iii-semantics-and-pragmatics-spring-2005/).
 
-    5. 24.906J The Linguistic Study of Bilingualism
+    5. 9.59J Lab In Psycholinguistics
+
+        Ternyata mata kuliah ini ekuivalen dengan [24.905J] Psycholinguistics, hehe.
+
+        Hanya terdapat satu versi di OCW, yaitu versi [Spring 2017](https://ocw.mit.edu/courses/9-59j-lab-in-psycholinguistics-spring-2017/).
+
+    6. 24.906J The Linguistic Study of Bilingualism
 
         Hanya terdapat satu versi di OCW, yaitu versi [Fall 2012](https://ocw.mit.edu/courses/24-906j-linguistic-studies-of-bilingualism-fall-2012/).
 
-    6. 24.910 Advanced Topics in Linguistic Analysis
+    7. 24.910 Advanced Topics in Linguistic Analysis
 
         Sepertinya mata kuliah ini merupakan mata kuliah topik khusus, karena topiknya berubah tiap semester.
 
@@ -626,21 +632,52 @@ Berikut adalah daftar kursus yang dapat dipertimbangkan untuk aku ambil nantinya
         - [Spring 2007: Laboratory Phonology](https://ocw.mit.edu/courses/24-910-topics-in-linguistic-theory-laboratory-phonology-spring-2007/)
         - [Spring 2009: Propositional Attitudes](https://ocw.mit.edu/courses/24-910-topics-in-linguistic-theory-propositional-attitudes-spring-2009/)
 
-    7. 24.914 Language Variation and Change
+    8. 24.914 Language Variation and Change
 
         Hanya terdapat satu versi di OCW, yaitu versi [Spring 2019](https://ocw.mit.edu/courses/24-914-language-variation-and-change-spring-2019/).
 
-    8. 24.915 Linguistic Phonetics
+    9. 24.915 Linguistic Phonetics
 
         Hanya terdapat satu versi di OCW, yaitu versi [Fall 2015](https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015/).
 
-    9. 24.917 ConLangs: How To Construct A Language
+    10. 24.917 ConLangs: How To Construct A Language
 
         > BUSET INI MATA KULIAH KEREN BANGET T___T
 
         Hanya terdapat satu versi di OCW, yaitu versi [Fall 2018](https://ocw.mit.edu/courses/24-917-conlangs-how-to-construct-a-language-fall-2018/).
 
 Kayaknya [Saylor Academy](https://www.saylor.org/) juga keren, tapi belum tahu sih kursusnya apakah fit dengan bidang linguistik; *we'll see later*.
+
+## Penyetaraan dengan persyaratan program minornya bagaimana?
+
+Aku menggunakan sistem penyetaraan kredit dari ITB ([Credit Transfer, Course Registration, and Credit Equivalency](https://partnership.itb.ac.id/credit-transfer-course-registration-and-credit-equivalency/)) sebagai acuan jumlah kredit mata kuliah.
+
+    1. Untuk universitas di Asia Tenggara, Jepang dan Tiongkok, 1 kredit = 1 SKS. Di universitas-universitas ini, mirip dengan ITB, mahasiswa dapat mengambil hingga sekitar 20 SKS per semester.
+    2. Untuk universitas di Eropa, 1 ECTS = 2/3 (atau 0.67) SKS (1.5 ECTS = 1 SKS). Di universitas-universitas ini, mahasiswa biasanya dapat mengambil hingga sekitar 30 SKS (30 ECTS) per semester.
+    3. Untuk universitas di Korea Selatan, 1 SKS Korea setara dengan 5/3 (atau 1,67) ECTS (3 SKS Korea setara dengan 5 ECTS). Dengan kata lain, 1 SKS = 9/10 (atau 0,9) kredit Korea. Biasanya, jumlah maksimum kredit Korea yang dapat diambil oleh mahasiswa adalah 19 kredit (atau sekitar 21 SKS) per semester.
+    4. Untuk universitas di Amerika Serikat, Taiwan, dan Hong Kong, 1 SKS biasanya sama dengan 2 ECTS. Artinya, 1 SKS = 3/4 (atau 0,75) kredit AS / Taiwan.
+
+Karena aku juga menggunakan kursus dari MIT, maka aku juga mengikuti [skema kredit MIT](https://registrar.mit.edu/registration-academics/academic-requirements/subject-levels-credit) yang berbeda dibandingkan universitas lainnya di Amerika Serikat.
+
+    Satu unit MIT kira-kira sama dengan 14 jam kerja per semester. Daftar mata kuliah menampilkan unit untuk setiap mata kuliah sebagai rangkaian tiga angka (misalnya, 3-2-7). Angka-angka tersebut jika dijumlahkan (3+2+7) akan menghasilkan total kredit untuk mata kuliah tersebut (12). Secara berurutan, ketiga angka tersebut mewakili:
+
+    - unit yang ditetapkan untuk kuliah dan pengajian.
+    - unit yang diberikan untuk laboratorium, desain, atau kerja lapangan.
+    - unit untuk persiapan di luar kelas.
+
+    Beberapa daftar mata kuliah berisi "unit yang disusun" dan bukan serangkaian angka. Ini menunjukkan bahwa Anda dan instruktur Anda telah menyetujui jumlah pekerjaan yang akan Anda lakukan dan telah menyesuaikan kreditnya.
+
+    Kami tidak dapat menawarkan konversi resmi unit MIT ke sistem kredit yang berbeda. Namun, kami menyarankan perhitungan berikut ini:
+
+    - Tiga unit MIT kira-kira sama dengan satu "jam semester" atau kredit.
+    - Mata kuliah MIT yang bernilai 12 unit setara dengan 4 jam semester atau kredit.
+
+Aku juga menggunakan sistem konversi SKS dari program BYOC yang digunakan oleh universitas aku atas hasil kerja sama dengan Coursera.
+
+    Sebagai panduan pengakuan SKS, Anda dapat menggunakan perhitungan ini.
+
+    - 1 SKS = 170 menit x 14 minggu = 39.7 jam
+    - Contoh: Jika Anda mengikuti spesialisasi di Coursera yang terdiri dari 5 kursus dengan total 156 jam, maka prediksi SKS-nya adalah 156/39.7 = 4 SKS (pembulatan di atas 0.5)
 
 ## What is your takeaway?
 
