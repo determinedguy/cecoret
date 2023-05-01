@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flutter + GitHub Actions + Microsoft Visual Studio App Center = 🤔
-categories: [Flutter, PBP]
+categories: [Flutter, PBP, Kuliah]
 ---
 
 > Disclaimer: I spent seven hours of doing this stuff.

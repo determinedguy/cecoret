@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pindah dari Heroku ke Railway
-categories: [PBP, Heroku, Railway, Django]
+categories: [PBP, Heroku, Railway, Django, Hosting, Kuliah]
 ---
 
 ## Bye bye, Heroku!
