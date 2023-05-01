@@ -11,8 +11,8 @@ categories: [PBP, Django, Hosting]
     [DOM Cloud Hosting] merupakan PaaS yang dibuat oleh [Wildan Mubarok](https://wellosoft.net/). Beliau sendiri membuat layanan [DOM Cloud Hosting] karena beliau juga frustasi dengan terbatasnya layanan *hosting* gratis yang dapat digunakan untuk tugas perkuliahan.
 
     > We want students, teachers, developers with their hobby time make use of our platform for a better experience with putting things online. Personally, the reason I created this because I once struggled to find a host service that's good enough for a university project.
-
-    Sumber: [Our Philosophy - DOM Cloud](https://domcloud.co/docs/intro/philosophy)
+    >
+    > Sumber: [Our Philosophy - DOM Cloud](https://domcloud.co/docs/intro/philosophy)
 
     Secara garis besar, layanan gratis yang diberikan oleh [DOM Cloud Hosting] sendiri cukup menggiurkan; kapasitas sebesar 1.5 GB untuk 3 situs web, domain `*.domcloud.io` gratis, dan sertifikat SSL gratis dengan layanan [Let's Encrypt](https://letsencrypt.org/).
 
