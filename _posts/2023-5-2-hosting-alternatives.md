@@ -18,6 +18,45 @@ categories: [PBP, Django, Hosting]
 
     ![Contoh Dashboard](https://i.ibb.co/TwbSTwD/Screenshot-2023-05-02-06-13-05.jpg)
 
+    Berikut adalah contoh konfigurasi YAML untuk Django.
+
+    - Deploy
+
+      ```yaml
+      features:
+        - python
+        - postgresql
+        - ssl
+      source: 'https://github.com/reflekt-io/reflekt.io-domcloud'
+      root: public_html/public
+      nginx:
+        ssl: always
+        passenger:
+          enabled: 'on'
+          # Run Python by Phusion Passenger from pyenv
+          python: .pyenv/shims/python
+      commands:
+        - 'pip install -r requirements.txt'
+        # Change allowed host config
+        - 'sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \[''${DOMAIN}''\]/g" reflekt_io/settings.py'
+        # Initialize middleware between Python (Django) and Phusion Passenger
+        - 'echo "from reflekt_io.wsgi import application" > passenger_wsgi.py'
+        - 'python manage.py migrate'
+        - 'mkdir public'
+      ```
+
+    - Webhook
+
+      Pastikan kamu telah mengatur repositori GitHub yang ingin kamu pakai.
+
+      ```yaml
+      commands:
+        # Use stash to avoid unstaged changes problem
+        - git stash
+        - git pull
+        - git stash pop
+      ```
+
 2. [Adaptable]
 
     ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
