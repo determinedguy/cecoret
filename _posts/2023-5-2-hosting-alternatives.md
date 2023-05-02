@@ -38,6 +38,10 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     3. Kamu dapat memilih untuk menggunakan templat yang sudah disediakan (`Start from Template`), mengimpor repositori GitHub yang sudah ada (`Clone from GitHub`), atau mengkustomisasi skrip templat *deployment* sendiri. Kita akan memilih opsi impor repositori GitHub (`Clone from GitHub`).
 
+        ![Halaman Awal 1](https://i.ibb.co/LkdJQLb/Screenshot-2023-05-02-08-36-08.jpg)
+
+        ![Halaman Awal 2](https://i.ibb.co/Mntt9dD/Screenshot-2023-05-02-08-36-19.jpg)
+
     4. Jika kamu belum memperbolehkan layanan untuk mengakses GitHub-mu, silakan berikan akses kepada layanan agar repositori aplikasimu dapat muncul sebagai pilihan repositori yang ingin diimpor.
 
     5. Pilih repositori aplikasi yang ingin kamu gunakan. Tautan repositori akan muncul secara otomatis di kode templat aplikasi.
@@ -99,7 +103,11 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     4. Klik `Add` setelah kamu mengonfigurasi repositori dan status aplikasi.
 
-    Layanan `Webhook` sudah terkonfigurasi.
+    Layanan `Webhook` sudah terkonfigurasi. Aplikasi kamu akan diperbarui ketika kamu melakukan *push* ke dalam repositori GitHub aplikasimu.
+
+    Sebagai informasi (2 Mei 2023), domain `*.domcloud.io` belum dapat diakses dengan jaringan UI karena terindikasi sebagai *malware* oleh Palo Alto Networks (layanan *screening* situs web yang digunakan oleh DSTI UI). Informasi ini akan aku perbarui sesaat setelah terdapat informasi lanjutan.
+
+    ![Informasi Blokir](https://i.ibb.co/VWb8LFD/Screenshot-2023-05-02-09-48-43.jpg)
 
 2. [Adaptable]
 
