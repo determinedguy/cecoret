@@ -8,7 +8,7 @@ categories: [PBP, Django, Hosting]
 
 Tentu saja tidak, dong!
 
-Dengan perkembangan teknologi dan rasa frustasi terhadap batasan yang ada pada [Railway](https://railway.app/) saat mengembangkan aplikasi Django, aku "iseng" mencari alternatif PaaS yang dapat mendukung aplikasi Python (khususnya Django); "ya kali aja ada kan," pikirku.
+Dengan perkembangan teknologi dan rasa frustasi terhadap batasan yang ada pada [Railway](https://railway.app/) saat mengembangkan aplikasi Django (ingat [artikel ini](https://determinedguy.github.io/cecoret/heroku-to-railway/)?), aku "iseng" mencari alternatif PaaS yang dapat mendukung aplikasi Python (khususnya Django); "ya kali aja ada kan," pikirku.
 
 ### Eh, tahunya beneran ada dong!
 
