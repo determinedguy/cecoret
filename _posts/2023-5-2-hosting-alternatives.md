@@ -109,7 +109,7 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Layanan `Webhook` sudah terkonfigurasi. Aplikasi kamu akan diperbarui ketika kamu melakukan *push* ke dalam repositori GitHub aplikasimu.
 
-    Sebagai informasi (2 Mei 2023), domain `*.domcloud.io` belum dapat diakses dengan jaringan UI karena terindikasi sebagai *malware* oleh Palo Alto Networks (layanan *screening* situs web yang digunakan oleh DSTI UI). Informasi ini akan aku perbarui sesaat setelah terdapat informasi lanjutan.
+    Sebagai informasi, saat ini (2 Mei 2023) domain `*.domcloud.io` belum dapat diakses dengan jaringan UI karena terindikasi sebagai *malware* oleh Palo Alto Networks (layanan *screening* situs web yang digunakan oleh DSTI UI). Informasi ini akan diperbarui ketika terdapat informasi tambahan.
 
     ![Informasi Blokir](https://i.ibb.co/VWb8LFD/Screenshot-2023-05-02-09-48-43.jpg)
 
@@ -117,7 +117,7 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Tidak banyak informasi latar belakang yang dapat digali dari Internet mengenai [Adaptable] selain "*just connect your GitHub repository and let Adaptable handle the rest*". 🤔
 
-    Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah dibandingkan PaaS lainnya; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
+    Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah dibandingkan PaaS lainnya; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TLS gratis, dan *shared app build pool*.
 
     ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
 
