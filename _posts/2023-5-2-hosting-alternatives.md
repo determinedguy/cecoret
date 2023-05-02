@@ -119,13 +119,13 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah dibandingkan PaaS lainnya; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
 
+    ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
+
     Sayangnya, untuk saat ini kamu membutuhkan kode undangan (*invitation code*) untuk menggunakan layanan ini. Namun, kode undangan dapat didapatkan dengan mudah dengan *request* untuk bergabung ke beta melalui tautan yang tersedia pada halaman *Sign up*.
 
     ![Sign Up Page](https://i.ibb.co/7234nVc/Screenshot-2023-05-02-08-27-46.jpg)
 
     Selain itu, layanan ini sepertinya masih sangat mengandalkan GitHub untuk autentikasi akun. Hal ini tentunya perlu diperhatikan apabila kamu menggunakan layanan repositori Git selain GitHub.
-
-    ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
 
     Seperti sebelumnya, aku akan coba untuk mencontohkan bagaimana cara mengimpor aplikasi Django yang sudah dibuat sebelumnya untuk dijalankan di [Adaptable].
 
