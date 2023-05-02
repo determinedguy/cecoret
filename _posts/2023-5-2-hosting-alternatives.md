@@ -115,9 +115,9 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
 2. [Adaptable]
 
-    (Background.)
+    Tidak banyak informasi latar belakang yang dapat digali dari Internet mengenai [Adaptable] selain "*just connect your GitHub repository and let Adaptable handle the rest*". 🤔
 
-    Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
+    Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah dibandingkan PaaS lainnya; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
 
     Sayangnya, untuk saat ini kamu membutuhkan kode undangan (*invitation code*) untuk menggunakan layanan ini. Namun, kode undangan dapat didapatkan dengan mudah dengan *request* untuk bergabung ke beta melalui tautan yang tersedia pada halaman *Sign up*.
 
@@ -125,11 +125,29 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Selain itu, layanan ini sepertinya masih sangat mengandalkan GitHub untuk autentikasi akun. Hal ini tentunya perlu diperhatikan apabila kamu menggunakan layanan repositori Git selain GitHub.
 
-    (Set up.)
-
-    (Config? Zero to none.)
-
     ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
+
+    Seperti sebelumnya, aku akan coba untuk mencontohkan bagaimana cara mengimpor aplikasi Django yang sudah dibuat sebelumnya untuk dijalankan di [Adaptable].
+
+    1. Buatlah akun terlebih dahulu; yang sabar ya untuk menunggu kode undangannya. 😅
+
+    2. Jika sudah mendapatkan kode undangan, masukkan kode undangan pada kolom input yang tersedia dan tekan tombol `Sign Up with GitHub`.
+
+    3. Jika sudah login, silakan tekan tombol `New App`. Pilih `Connect an Existing Repository`.
+
+    4. Pilihlah repositori aplikasimu sebagai basis aplikasi yang akan di-*deploy*. Pilih *branch* yang ingin dijadikan sebagai *deployment branch*.
+
+    5. Pilihlah templat *deployment* yang sesuai dengan aplikasimu. Tentunya kita akan memilih `Python App Template` sebagai contoh pada kasus ini.
+
+    6. Pilihlah tipe basis data yang akan kamu gunakan untuk aplikasimu. Kita akan memilih `PostgreSQL`.
+
+    7. Sesuaikan versi Python sesuai dengan spesifikasi aplikasimu dan masukkan perintah `python manage.py migrate && gunicorn reflekt_io.wsgi` sebagai `Start Command` untuk proyek aplikasimu. Sesuaikan `reflekt_io` dengan nama proyek aplikasi Django-mu.
+
+    8. Masukkan nama aplikasimu yang juga akan menjadi nama domain situs web aplikasimu.
+
+    9. Centang bagian `HTTP Listener on PORT` dan klik `Deploy App` untuk memulai proses *deployment* aplikasi.
+
+    Tada! Proses *deployment* telah selesai. [Adaptable]—sesuai dengan *tagline*-nya—hanya meminta kita untuk menghubungkan repositori GitHub dengan konfigurasi yang minimum, sisa proses *deployment* dilakukan secara otomatis. Canggih, bukan?
 
 [DOM Cloud Hosting]: https://domcloud.co/
 [Adaptable]: https://adaptable.io/
