@@ -115,7 +115,7 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
 
-    Sayangnya, untuk saat ini kamu membutuhkan kode undangan (*invitation code*) untuk menggunakan layanan ini. Namun, kode undangan dapat didapatkan dengan mudah dengan *request* untuk bergabung ke beta.
+    Sayangnya, untuk saat ini kamu membutuhkan kode undangan (*invitation code*) untuk menggunakan layanan ini. Namun, kode undangan dapat didapatkan dengan mudah dengan *request* untuk bergabung ke beta melalui tautan yang tersedia pada halaman *Sign up*.
 
     ![Sign Up Page](https://i.ibb.co/7234nVc/Screenshot-2023-05-02-08-27-46.jpg)
 
