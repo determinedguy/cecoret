@@ -4,11 +4,19 @@ title: Bahas Hosting (Lagi)
 categories: [PBP, Django, Hosting]
 ---
 
-> Will be updated.
+## Nggak capek apa, Thal?
+
+Tentu saja tidak, dong!
+
+Dengan perkembangan teknologi dan rasa frustasi terhadap batasan yang ada pada [Railway](https://railway.app/) saat mengembangkan aplikasi Django, aku "iseng" mencari alternatif PaaS yang dapat mendukung aplikasi Python (khususnya Django); "ya kali aja ada kan," pikirku.
+
+### Eh, tahunya beneran ada dong!
+
+Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pengembangan aplikasi 😉. Sebenarnya, aku menemukan banyak alternatif yang sudah tersedia cukup lama dan kelihatannya cukup menarik. Sayangnya kebanyakan layanan bersifat BYOC (*Bring Your Own Cloud*), sehingga layanan tersebut hanya bertindak sebagai *middleware* antara kita sebagai pengembang aplikasi dengan *cloud platform*; bisa dianggap mengambil peran DevOps dalam proses pengembangan aplikasi.
 
 1. [DOM Cloud Hosting]
 
-    [DOM Cloud Hosting] merupakan PaaS yang dibuat oleh [Wildan Mubarok](https://wellosoft.net/). Beliau sendiri membuat layanan [DOM Cloud Hosting] karena beliau juga frustasi dengan terbatasnya layanan *hosting* gratis yang dapat digunakan untuk tugas perkuliahan.
+    [DOM Cloud Hosting] merupakan PaaS yang dibuat oleh [Wildan Mubarok](https://wellosoft.net/) (*Orang Indonesia, coy!*). Beliau sendiri membuat layanan [DOM Cloud Hosting] karena beliau juga frustasi dengan terbatasnya layanan *hosting* gratis yang dapat digunakan untuk tugas perkuliahan.
 
     > "We want students, teachers, developers with their hobby time make use of our platform for a better experience with putting things online. Personally, the reason I created this because I once struggled to find a host service that's good enough for a university project."
     >
@@ -18,36 +26,68 @@ categories: [PBP, Django, Hosting]
 
     ![Contoh Dashboard](https://i.ibb.co/TwbSTwD/Screenshot-2023-05-02-06-13-05.jpg)
 
-    Berikut adalah contoh konfigurasi YAML untuk Django.
+    Sayangnya [DOM Cloud Hosting] belum memiliki dokumentasi yang cukup memadai, mengingat layanan ini hanya dikembangkan oleh seorang saja. Beberapa templat konfigurasi (dalam bentuk YAML) sudah disediakan, namun kamu tetap perlu mengerti fungsinya masing-masing agar kamu dapat mengkustomisasi konfigurasi agar cocok dengan konfigurasi aplikasimu.
 
-    - Deploy
+    Apabila kamu mau mengembangkan aplikasi dari awal, [DOM Cloud Hosting] telah menyediakan beberapa templat aplikasi, seperti Wordpress, Laravel, Express, Django, Flask, dan lain-lain.
 
-      ```yaml
-      features:
-        - python
-        - postgresql
-        - ssl
-      source: 'https://github.com/reflekt-io/reflekt.io-domcloud'
-      root: public_html/public
-      nginx:
-        ssl: always
-        passenger:
-          enabled: 'on'
-          # Run Python by Phusion Passenger from pyenv
-          python: .pyenv/shims/python
-      commands:
-        - 'pip install -r requirements.txt'
-        # Change allowed host config
-        - 'sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \[''${DOMAIN}''\]/g" reflekt_io/settings.py'
-        # Initialize middleware between Python (Django) and Phusion Passenger
-        - 'echo "from reflekt_io.wsgi import application" > passenger_wsgi.py'
-        - 'python manage.py migrate'
-        - 'mkdir public'
-      ```
+    Aku akan coba untuk mencontohkan bagaimana cara mengimpor aplikasi Django yang sudah dibuat sebelumnya (untuk Heroku dan Railway, uhuk!) untuk dijalankan di [DOM Cloud Hosting].
 
-    - Webhook
+    1. Buka situs web [DOM Cloud Hosting] dan lakukan [registrasi akun](https://my.domcloud.co/login). Kamu dapat menggunakan akun surel biasa, GitHub, atau Google.
 
-      Pastikan kamu telah mengatur repositori GitHub yang ingin kamu pakai.
+    2. Setelah registrasi, login dan tekan tombol `Add a website`.
+
+    3. Kamu dapat memilih untuk menggunakan templat yang sudah disediakan (`Start from Template`), mengimpor repositori GitHub yang sudah ada (`Clone from GitHub`), atau mengkustomisasi skrip templat *deployment* sendiri. Kita akan memilih opsi impor repositori GitHub (`Clone from GitHub`).
+
+    4. Jika kamu belum memperbolehkan layanan untuk mengakses GitHub-mu, silakan berikan akses kepada layanan agar repositori aplikasimu dapat muncul sebagai pilihan repositori yang ingin diimpor.
+
+    5. Pilih repositori aplikasi yang ingin kamu gunakan. Tautan repositori akan muncul secara otomatis di kode templat aplikasi.
+
+        Berikut adalah contoh konfigurasi *deployment* untuk aplikasi Django yang sudah dibuat sebelumnya. Konfigurasi ini juga menginisiasi layanan PostgreSQL dan sertifikat SSL untuk layanan HTTPS. Jika kamu ingin menggunakan konfigurasi ini, jangan lupa untuk menyesuaikan sumber aplikasi (sesuaikan dengan tautan repositori GitHub aplikasimu) dan nama aplikasi (dalam contoh di bawah, nama aplikasi Django adalah `reflekt_io`) agar proses *deployment* aplikasimu dapat berjalan dengan lancar dan kamu tidak perlu mengulang proses *deployment* karena adanya kesalahan konfigurasi.
+
+        ```yaml
+        features:
+          - python
+          - postgresql
+          - ssl
+        source: 'https://github.com/reflekt-io/reflekt.io-domcloud'
+        root: public_html/public
+        nginx:
+          ssl: always
+          passenger:
+            enabled: 'on'
+            # Run Python by Phusion Passenger from pyenv
+            python: .pyenv/shims/python
+        commands:
+          - 'pip install -r requirements.txt'
+          # Change allowed host config
+          - 'sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \[''${DOMAIN}''\]/g" reflekt_io/settings.py'
+          # Initialize middleware between Python (Django) and Phusion Passenger
+          - 'echo "from reflekt_io.wsgi import application" > passenger_wsgi.py'
+          - 'python manage.py migrate'
+          - 'mkdir public'
+        ```
+
+    6. Kamu dapat mengubah *username* situs web yang juga akan menjadi domain dari situs web aplikasimu. Kamu juga dapat mengubah wilayah *deployment* aplikasi sesuai keinginanmu (Singapura, New York, atau Prancis). Informasi mengenai kapasitas, data jaringan, dan jumlah layanan web tersisa juga tersedia di bawah.
+
+        > PERHATIAN: Jika kamu akan menghapus proyek ini, jangan gunakan nama yang ingin kamu gunakan sebagai nama situs web final. Kamu tidak akan dapat mengklain nama situs web sebagai domain setelah kamu membuat situs web dengan nama tersebut (atau sudah ada orang lain yang mengklaim nama tersebut).
+        >
+        > Jika kamu sudah membuat proyek dengan nama yang kamu inginkan, maka jangan hapus proyek jika kamu ingin mengonfigurasi proyek dari awal; ganti saja konfigurasi *deployment* dan sesuaikan daripada menghapus proyek dan kehilangan kesempatan untuk mengklaim nama yang kamu inginkan. Walaupun proyek kamu dihapus, kamu tidak akan dapat mengklaim nama tersebut kembali; *basically it is gone forever*.
+        >
+        > #pengalaman :(
+
+    7. Ketika kamu sudah siap melakukan *deployment*, tekan tombol `Add Website` untuk memulai proses *deployment*. [DOM Cloud Hosting] akan melakukan proses *deployment* secara otomatis sesuai dengan konfigurasi yang telah kita buat.
+
+    Tada! Seharusnya aplikasimu sudah dapat diakses melalui tautan web yang diberikan oleh [DOM Cloud Hosting]. Jika terdapat *error* pada aplikasi Django-mu, silakan lakukan *troubleshooting* dan *debug* dengan mencari permasalahan yang kamu hadapi di Google dan/atau Stack Overflow.
+
+    Ketika kamu telah berhasil melakukan *deployment*, kamu juga dapat mengonfigurasi *deployment* secara otomatis melalui layanan `Webhook` yang disediakan oleh [DOM Cloud Hosting]. Ketika ada kode yang di-*push* ke dalam GitHub, [DOM Cloud Hosting] akan melakukan *deployment* secara otomatis dengan melakukan perintah yang diberikan di bagian `Webhook`.
+
+    Berikut adalah cara mengatur *deployment* secara otomatis melalui fitur `Webhook`.
+
+    1. Buka proyek aplikasimu dan buka menu `Webhook`.
+
+    2. Pilih repositori GitHub aplikasimu dan sesuaikan status aplikasi. Tentunya kita akan memilih Django sebagai contoh dalam kasus ini.
+
+    3. Kamu akan diberikan templat konfigurasi dengan kode `git pull`. Kamu dapat menggunakan contoh konfigurasi berikut ini sebagai konfigurasi `Webhook` aplikasimu.
 
       ```yaml
       commands:
@@ -57,7 +97,25 @@ categories: [PBP, Django, Hosting]
         - git stash pop
       ```
 
+    4. Klik `Add` setelah kamu mengonfigurasi repositori dan status aplikasi.
+
+    Layanan `Webhook` sudah terkonfigurasi.
+
 2. [Adaptable]
+
+    (Background.)
+
+    Layanan gratis yang diberikan oleh [Adaptable] juga tidak kalah; *deployment* aplikasi yang *containerized* dan *scalable*, fasilitas basis data terkelola (MongoDB dan PostgreSQL), *continuous deployment* dari GitHub, sertifikat SSL/TS gratis, dan *shared app build pool*.
+
+    Sayangnya, untuk saat ini kamu membutuhkan kode undangan (*invitation code*) untuk menggunakan layanan ini. Namun, kode undangan dapat didapatkan dengan mudah dengan *request* untuk bergabung ke beta.
+
+    ![Sign Up Page](https://i.ibb.co/7234nVc/Screenshot-2023-05-02-08-27-46.jpg)
+
+    Selain itu, layanan ini sepertinya masih sangat mengandalkan GitHub untuk autentikasi akun. Hal ini tentunya perlu diperhatikan apabila kamu menggunakan layanan repositori Git selain GitHub.
+
+    (Set up.)
+
+    (Config? Zero to none.)
 
     ![Contoh Dashboard](https://i.ibb.co/6RnKVhP/Screenshot-2023-05-02-00-07-01.jpg)
 
