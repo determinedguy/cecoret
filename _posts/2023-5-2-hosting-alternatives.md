@@ -34,6 +34,10 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     1. Buka situs web [DOM Cloud Hosting] dan lakukan [registrasi akun](https://my.domcloud.co/login). Kamu dapat menggunakan akun surel biasa, GitHub, atau Google.
 
+        ![Login](https://i.ibb.co/JqZtNtq/Screenshot-2023-05-02-09-58-10.jpg)
+
+        ![Register](https://i.ibb.co/CHDvzmK/Screenshot-2023-05-02-09-58-19.jpg)
+
     2. Setelah registrasi, login dan tekan tombol `Add a website`.
 
     3. Kamu dapat memilih untuk menggunakan templat yang sudah disediakan (`Start from Template`), mengimpor repositori GitHub yang sudah ada (`Clone from GitHub`), atau mengkustomisasi skrip templat *deployment* sendiri. Kita akan memilih opsi impor repositori GitHub (`Clone from GitHub`).
