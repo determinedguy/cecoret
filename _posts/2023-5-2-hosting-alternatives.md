@@ -89,13 +89,13 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     3. Kamu akan diberikan templat konfigurasi dengan kode `git pull`. Kamu dapat menggunakan contoh konfigurasi berikut ini sebagai konfigurasi `Webhook` aplikasimu.
 
-      ```yaml
-      commands:
-        # Use stash to avoid unstaged changes problem
-        - git stash
-        - git pull
-        - git stash pop
-      ```
+        ```yaml
+        commands:
+          # Use stash to avoid unstaged changes problem
+          - git stash
+          - git pull
+          - git stash pop
+        ```
 
     4. Klik `Add` setelah kamu mengonfigurasi repositori dan status aplikasi.
 
