@@ -16,7 +16,7 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
 1. [DOM Cloud Hosting]
 
-    [DOM Cloud Hosting] merupakan PaaS yang dibuat oleh [Wildan Mubarok](https://wellosoft.net/) (*Orang Indonesia, coy!*). Beliau sendiri membuat layanan [DOM Cloud Hosting] karena beliau juga frustasi dengan terbatasnya layanan *hosting* gratis yang dapat digunakan untuk tugas perkuliahan.
+    [DOM Cloud Hosting] merupakan PaaS yang dibuat oleh [Wildan Mubarok](https://wellosoft.net/) (*Orang Indonesia, cuy!*). Beliau sendiri membuat layanan [DOM Cloud Hosting] karena beliau juga frustasi dengan terbatasnya layanan *hosting* gratis yang dapat digunakan untuk tugas perkuliahan.
 
     > "We want students, teachers, developers with their hobby time make use of our platform for a better experience with putting things online. Personally, the reason I created this because I once struggled to find a host service that's good enough for a university project."
     >
