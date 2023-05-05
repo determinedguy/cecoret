@@ -109,9 +109,15 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     Layanan `Webhook` sudah terkonfigurasi. Aplikasi kamu akan diperbarui ketika kamu melakukan *push* ke dalam repositori GitHub aplikasimu.
 
-    Sebagai informasi, saat ini (2 Mei 2023) domain `*.domcloud.io` belum dapat diakses dengan jaringan UI karena terindikasi sebagai *malware* oleh Palo Alto Networks (layanan *screening* situs web yang digunakan oleh DSTI UI). Informasi ini akan diperbarui ketika terdapat informasi tambahan.
+    ~~Sebagai informasi, saat ini (2 Mei 2023) domain `*.domcloud.io` belum dapat diakses dengan jaringan UI karena terindikasi sebagai *malware* oleh Palo Alto Networks (layanan *screening* situs web yang digunakan oleh DSTI UI). Informasi ini akan diperbarui ketika terdapat informasi tambahan.~~
 
     ![Informasi Blokir](https://i.ibb.co/VWb8LFD/Screenshot-2023-05-02-09-48-43.jpg)
+
+    (UPDATE: 4 Mei 2023) Beberapa subdomain `*.domcloud.io` memiliki catatan bersih pada Palo Alto Networks, sehingga hanya beberapa subdomain yang terindikasi "berbahaya".
+
+    ![Trave-Lo-Gue](https://i.ibb.co/SxBHgps/Screenshot-2023-05-05-12-50-10.jpg)
+
+    > Contoh: <https://trave-lo-gue.domcloud.io/>, proyek PBP yang dimiliki oleh [Kelompok F12, PBP Ganil 2022/2023](https://github.com/TraveLoGue-f12).
 
 2. [Adaptable]
 
