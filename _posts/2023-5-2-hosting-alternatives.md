@@ -117,7 +117,7 @@ Aku menemukan dua alternatif yang ke depannya mungkin dapat dijadikan sarana pen
 
     ![Trave-Lo-Gue](https://i.ibb.co/SxBHgps/Screenshot-2023-05-05-12-50-10.jpg)
 
-    > Contoh: [TraveLoGue](https://trave-lo-gue.domcloud.io/), proyek PBP yang dimiliki oleh [Kelompok F12, PBP Ganil 2022/2023](https://github.com/TraveLoGue-f12).
+    > Contoh: [TraveLoGue](https://trave-lo-gue.domcloud.io/), proyek PBP yang dimiliki oleh [Kelompok F12, PBP Ganjil 2022/2023](https://github.com/TraveLoGue-f12).
 
 2. [Adaptable]
 
