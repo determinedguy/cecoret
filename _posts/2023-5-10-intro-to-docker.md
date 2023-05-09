@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Efisiensi Pengembangan Perangkat Lunak dengan Docker: Sebuah Perkenalan
+title: Efisiensi Pengembangan Perangkat Lunak dengan Docker - Sebuah Perkenalan
 categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah]
 ---
 
