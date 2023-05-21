@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modularisasi pada Flutter
+title: Modularisasi - Teknik Optimasi dan Organisasi pada Flutter
 categories: [Flutter, PBP]
 ---
 
@@ -59,3 +59,66 @@ Udah yakin nih mau lanjut terapin modularisasi? Oke lanjut~
 ### Eh bentar, modul itu apaan sih sebenarnya?
 
 Pada Flutter, sebuah modul didefinisikan sebagai sebuah *package* atau *plugin*. *Package* dalam Flutter merupakan sebuah paket kode yang ditulis menggunakan bahasa Dart untuk menjalankan sebuah tugas tertentu dan dapat kita tambahkan ke dalam sebuah proyek aplikasi. *Plugin* dalam Flutter merupakan jenis *package* yang spesial karena tidak hanya ditulis dengan Dart, tetapi juga bisa menggunakan Android (Java & Kotlin), iOS (Swift & Objective-C), web, dan desktop.
+
+### Udah ah, buruan ajarin!
+
+Oke, mari kita meluncur ke studi kasus~
+
+Bayangin kamu punya sebuah aplikasi counter sederhana dengan halaman "About Me". Kamu ingin memisahkan halaman "About Me" menjadi sebuah modul sendiri, karena kamu takut ternyata aplikasi ini akan berkembang menjadi sebuah *super app* dengan jumlah pengembang yang ratusan.
+
+![Waduh](https://i.ibb.co/LvQLQFZ/9a24d48eafa6ba090c13cb91bcda5323.jpg)
+
+Awalnya, struktur proyek kamu berupa berikut.
+
+![Struktur Awal](https://i.ibb.co/fQ2X7sR/Selection-2548.png)
+
+Gunakan perintah `flutter create --template=package about` untuk membuat modul dengan nama `about`. Setelah itu, ubah nama file `about.dart` menjadi `about_page.dart` dan pindahkan ke dalam folder `about/lib` agar halaman "About Me" berada di dalam modul `about`.
+
+![Struktur Akhir](https://i.ibb.co/xMB2jS2/Selection-2549.png)
+
+Di dalam folder `about`, ternyata ada beberapa berkas untuk konfigurasi *package* (mirip seperti folder proyek Flutter). Kita bisa menambahkan *package* lain sebagai dependensi dari *package* `about` pada berkas `pubspec.yaml`, menuliskan kode uji kasus pada folder `test`, dan menuliskan kode aplikasinya pada folder `lib`.
+
+Setelah kamu memindahkan file halaman "About Me", bisa jadi akan ada error (biasanya terkait *import*). Perbaiki hal tersebut secara manual atau secara otomatis dengan menggunakan bantuan *plugin* Flutter.
+
+Jangan lupa untuk menghapus kode yang tidak dibutuhkan, seperti `about_test.dart` dan kelas `Calculator` di dalam `about/lib/about.dart`.
+
+Setelah membereskan modul `about`, daftarkan *package* ke dalam `pubspec.yaml` milik *main app*.
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+ 
+ 
+  … 
+  about:
+    path: about
+```
+
+Oh iya, kamu sebenarnya dapat mempermudah proses *import package*. Saat ini, kita masih menggunakan impor `AboutPage` secara spesifik.
+
+```dart
+import 'package:about/about_page.dart';
+```
+
+Isilah file `about/lib/about.dart` dengan kode berikut.
+
+```dart
+library about;
+ 
+export 'about_page.dart';
+```
+
+Dengan begini, kita cukup mengimpor *package* melalui berkas `about.dart`. Hal ini akan sangat berguna ketika kita nantinya memiliki banyak berkas dalam satu *package*.
+
+```dart
+import 'package:about/about.dart';
+import 'package:flutter/material.dart';
+...
+```
+
+Voila! Kamu baru saja menerapkan konsep modularisasi sederhana di Flutter. 😁
+
+Tentunya, kamu dapat menggunakan konsep ini lebih lanjut dengan menerapkan *unit testing* per modul, ekspor modul sebagai *package* yang (siapa tahu) di-*publish* di <pub.dev>, dan masih banyak lagi!
+
+### Selamat mencoba! 😆
