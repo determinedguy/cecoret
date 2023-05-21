@@ -72,7 +72,7 @@ Awalnya, struktur proyek kamu berupa berikut.
 
 ![Struktur Awal](https://i.ibb.co/fQ2X7sR/Selection-2548.png)
 
-Gunakan perintah `flutter create --template=package about` untuk membuat modul dengan nama `about`. Setelah itu, ubah nama file `about.dart` menjadi `about_page.dart` dan pindahkan ke dalam folder `about/lib` agar halaman "About Me" berada di dalam modul `about`.
+Gunakan perintah `flutter create --template=package about` untuk membuat modul dengan nama `about`. Setelah itu, ubah nama file `about.dart` menjadi `about_page.dart` dan pindahkan file tersebut ke dalam folder `about/lib` agar halaman "About Me" berada di dalam modul `about`.
 
 ![Struktur Akhir](https://i.ibb.co/xMB2jS2/Selection-2549.png)
 
