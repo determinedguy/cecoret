@@ -119,6 +119,6 @@ import 'package:flutter/material.dart';
 
 Voila! Kamu baru saja menerapkan konsep modularisasi sederhana di Flutter. 😁
 
-Tentunya, kamu dapat menggunakan konsep ini lebih lanjut dengan menerapkan *unit testing* per modul, ekspor modul sebagai *package* yang (siapa tahu) di-*publish* di <pub.dev>, dan masih banyak lagi!
+Tentunya, kamu dapat menggunakan konsep ini lebih lanjut dengan menerapkan *unit testing* per modul, ekspor modul sebagai *package* yang (siapa tahu) di-*publish* di [pub.dev](https://pub.dev/), dan masih banyak lagi!
 
 ### Selamat mencoba! 😆
