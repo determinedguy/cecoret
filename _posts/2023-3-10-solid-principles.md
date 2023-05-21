@@ -4,8 +4,6 @@ title: Prinsip SOLID untuk Pemrograman Berbasis Obyek
 categories: [Proyek Perangkat Lunak, Software Engineering, Kuliah]
 ---
 
-> Still in construction, sorry for the inconveniences.
-
 ## "Kita harus SOLID!"
 
 > Waduh, ampun bang!
@@ -175,6 +173,7 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
             engine.powerOn(1000);
         }
     }
+    ```
 
     Seperti yang dijelaskan oleh kode kita, kita memiliki sebuah mesin yang dapat kita hidupkan dan kita dapat meningkatkan kekuatannya.
 
