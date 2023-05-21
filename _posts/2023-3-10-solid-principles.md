@@ -144,7 +144,107 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
 
     > Misalkan q(x) adalah properti yang dapat dibuktikan tentang objek x bertipe T, maka q(y) harus dapat dibuktikan untuk objek y bertipe S di mana S adalah subtipe dari T.
 
-    Hayo loh, bingung nggak tuh?
+    Hayo loh, bingung nggak tuh? Memang sih, prinsip ini paling kompleks dibandingkan prinsip-prinsip lainnya pada prinsip SOLID ....
+
+    Sederhananya sih, jika kelas A adalah **subjenis** dari kelas B, maka kita **harus dapat mengganti** B dengan A **tanpa mengganggu perilaku program**.
+
+    Langsung lihat contoh aja, deh!
+
+    Misalkan kita memiliki *interface* Bus dengan metode-metode yang harus dipenuhi oleh sebuah bus: menyalakan mesin dan akselerasi.
+
+    ```java
+    public interface Bus {
+        void turnOnEngine();
+        void accelerate();
+    }
+    ```
+
+    Mari implementasikan *interface* ini dan berikan beberapa kode untuk metode-metode tersebut.
+
+    ```java
+    public class Bikun implements Bus {
+        private Engine engine;
+
+        //Konstruktor, getter, dan setter
+
+        public void turnOnEngine() {
+            engine.on();
+        }
+
+        public void accelerate() {
+            engine.powerOn(1000);
+        }
+    }
+
+    Seperti yang dijelaskan oleh kode kita, kita memiliki sebuah mesin yang dapat kita hidupkan dan kita dapat meningkatkan kekuatannya.
+
+    Tapi tunggu, sekarang kan eranya bus listrik!
+
+    ```java
+    public class BikunListrik implements Bus {
+        public void turnOnEngine() {
+            throw new AssertionError("Saya tidak memiliki mesin!");
+        }
+
+        public void accelerate() {
+            //akselerasi ini luar biasa!
+        }
+    }
+    ```
+
+    Dengan memasukkan bus tanpa mesin ke dalam program, kita mengubah perilaku program kita secara mendasar. Hal ini merupakan **pelanggaran nyata** terhadap prinsip *Liskov substitution* dan sedikit lebih sulit untuk diperbaiki daripada dua prinsip sebelumnya.
+
+    Berikut adalah contoh penerapan prinsip *Liskov substitution*  yang benar untuk kasus bus.
+
+    ```java
+    public interface Vehicle {
+        void startEngine();
+        void accelerate();
+    }
+
+    public class Car implements Vehicle {
+        private Engine engine;
+        
+        public void startEngine() {
+            engine.start();
+        }
+        
+        public void accelerate() {
+            engine.increasePower(100);
+        }
+    }
+
+    public class Bus implements Vehicle {
+        private Engine engine;
+        private boolean doorsOpen;
+        
+        public void startEngine() {
+            engine.start();
+        }
+        
+        public void accelerate() {
+            engine.increasePower(50);
+        }
+        
+        public void openDoors() {
+            // Membuka pintu bus
+            doorsOpen = true;
+        }
+        
+        public void closeDoors() {
+            // Menutup pintu bus
+            doorsOpen = false;
+        }
+    }
+    ```
+
+    Dalam contoh ini, *interface* Vehicle memiliki metode `startEngine()` dan `accelerate()`. Kelas Car dan Bus mengimplementasikan *interface* ini.
+
+    Kelas Car merepresentasikan sebuah mobil dengan mesin dan memiliki fungsionalitas untuk menyalakan mesin dan mempercepat.
+
+    Kelas Bus juga merepresentasikan sebuah kendaraan dengan mesin, tetapi memiliki fitur tambahan yaitu membuka dan menutup pintu bus. Meskipun kelas Bus memiliki perilaku yang berbeda saat mempercepat (menggunakan peningkatan kekuatan yang lebih rendah), ia tetap mematuhi prinsip Liskov karena ia dapat digunakan sebagai pengganti dari kelas Vehicle tanpa mengganggu perilaku program.
+
+    Dengan adanya prinsip Liskov, kita dapat menggunakan objek Bus di tempat objek Car tanpa menyebabkan masalah atau konflik pada program yang mengandalkan antarmuka Vehicle.
 
 4. **I**nterface Segregation
 
