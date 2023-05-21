@@ -249,9 +249,128 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
 
     Prinsip ini menyatakan bahwa klien **tidak boleh dipaksa** untuk **mengimplementasikan antarmuka yang tidak digunakannya** atau **bergantung pada metode yang tidak mereka gunakan**.
 
+    Secara sederhana, prinsip ini mengatakan bahwa **antarmuka yang besar sebaiknya dibagi menjadi antarmuka yang lebih kecil**. Dengan melakukan hal ini, kita dapat memastikan bahwa kelas-kelas yang mengimplementasikan antarmuka tersebut hanya perlu memperhatikan metode-metode yang relevan bagi masing-masing kelas.
+
+    Sebagai contoh, bayangkan kita adalaha pengurus kebun binatang yang mengurus area kandang beruang.
+
+    Mari kita mulai dengan sebuah antarmuka yang menggambarkan peran kita sebagai pengurus beruang.
+
+    ```java
+    public interface BearKeeper {
+        void washTheBear();
+        void feedTheBear();
+        void petTheBear();
+    }
+    ```
+
+    Sebagai pengurus kebun binatang yang antusias, kita dengan senang hati mencuci dan memberi makan beruang kesayangan kita. Namun, kita juga sangat menyadari betapa bahaya memelihara seekor beruang. Sayangnya, antarmuka kita terlalu besar dan kita tidak punya pilihan selain mengimplementasikan kode untuk memelihara beruang.
+
+    Mari perbaiki hal tersebut dengan membagi antarmuka yang besar menjadi tiga antarmuka terpisah.
+
+    ```java
+    public interface BearCleaner {
+        void washTheBear();
+    }
+
+    public interface BearFeeder {
+        void feedTheBear();
+    }
+
+    public interface BearPetter {
+        void petTheBear();
+    }
+    ```
+
+    Berkat pemisahan antarmuka, sekarang kita bebas mengimplementasikan metode-metode seperlunya.
+
+    ```java
+    public class BearCarer implements BearCleaner, BearFeeder {
+
+        public void washTheBear() {
+            // Kayaknya ada yang belum dibilas :)
+        }
+
+        public void feedTheBear() {
+            // Kasih makan ikan, sesuai ucapan Ibu Susi
+        }
+    }
+    ```
+
+    Dan akhirnya, kita bisa memberikan hal-hal berbahaya kepada orang-orang yang berulah.
+
+    ```java
+    public class CrazyPerson implements BearPetter {
+
+        public void petTheBear() {
+            // GWS :D
+        }
+    }
+    ```
+
+    Dengan adanya pemisahan antarmuka, kita dapat menggunakan objek BearCarer sebagai pengganti BearKeeper tanpa mengganggu perilaku program. Hal ini memberikan fleksibilitas dalam memilih metode-metode yang relevan dan sesuai dengan kebutuhan.
+
 5. **D**ependency Inversion
 
-    Prinsip ini menyatakan bahwa entitas harus bergantung pada abstraksi, bukan pada konkresi. Dengan kata lain, modul tingkat tinggi tidak boleh bergantung pada modul tingkat rendah, tetapi mereka harus bergantung pada abstraksi.
+    Prinsip ini menyatakan bahwa **entitas harus bergantung pada abstraksi, bukan pada konkresi**. Dengan kata lain, **modul tingkat tinggi tidak boleh bergantung pada modul tingkat rendah**, tetapi **mereka harus bergantung pada abstraksi**.
+
+    Untuk menjelaskan prinsip ini, mari kita menghidupkan komputer dengan kode berikut.
+
+    ```java
+    public class PersonalComputer {}
+    ```
+
+    Namun, apa gunanya sebuah komputer tanpa monitor dan keyboard? Mari tambahkan satu monitor dan satu keyboard pada konstruktor sehingga setiap objek PersonalComputer yang kita buat sudah dilengkapi dengan Monitor dan StandardKeyboard.
+
+    ```java
+    public class PersonalComputer {
+
+        private final StandardKeyboard keyboard;
+        private final Monitor monitor;
+
+        public PersonalComputer() {
+            monitor = new Monitor();
+            keyboard = new StandardKeyboard();
+        }
+
+    }
+    ```
+
+    Kode ini (tentunya) akan berfungsi dan kita dapat menggunakan StandardKeyboard dan Monitor secara bebas dalam kelas PersonalComputer kita.
+
+    Sayangnya, masalah belum selesai. Dengan mendeklarasikan StandardKeyboard dan Monitor dengan kata kunci `new`, kita telah membuat hubungan yang erat antara ketiga kelas ini.
+
+    Tidak hanya membuat PersonalComputer sulit diuji, tetapi kita juga akan sulit (bahkan bisa jadi tidak mungkin!) untuk mengganti kelas StandardKeyboard dengan kelas lain.
+
+    Mari kita lepaskan ketergantungan dengan menambahkan antarmuka Keyboard yang lebih umum dan menggunakannya dalam kelas PersonalComputer.
+
+    ```java
+    public interface Keyboard { }
+    ```
+
+    ```java
+    public class PersonalComputer{
+
+        private final Keyboard keyboard;
+        private final Monitor monitor;
+
+        public PersonalComputer(Keyboard keyboard, Monitor monitor) {
+            this.keyboard = keyboard;
+            this.monitor = monitor;
+        }
+    }
+    ```
+
+    Di sini, kita menggunakan pola *dependency injection* untuk memudahkan penambahan dependensi Keyboard ke dalam kelas PersonalComputer.
+
+    Mari juga ubah kelas StandardKeyboard untuk mengimplementasikan antarmuka Keyboard agar sesuai untuk dimasukkan ke dalam kelas PersonalComputer.
+
+    ```java
+    public class StandardKeyboard implements Keyboard { }
+    ```
+
+    Sekarang, kelas-kelas kita sudah terpisah dan berkomunikasi melalui abstraksi Keyboard. Kita dapat mengganti jenis keyboard dalam mesin kita dengan implementasi yang berbeda dari antarmuka tersebut. Prinsip ini dapat diikuti juga untuk kelas Monitor.
+
+    Akhirnya, kita telah memisahkan ketergantungan dan bebas menguji PersonalComputer kita dengan menggunakan *framework* pengujian apa pun yang kita pilih.
 
 ## Kenapa harus SOLID?
 
