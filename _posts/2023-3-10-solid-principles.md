@@ -105,7 +105,40 @@ Prinsip SOLID sendiri terdiri dari lima prinsip, sesuai dengan singkatannya.
 
 2. **O**pen-Closed
 
-    Prinsip ini menyatakan bahwa obyek atau entitas harus **terbuka untuk ekstensi**, namun **tertutup untuk modifikasi**.
+    Prinsip ini menyatakan bahwa obyek atau entitas harus **terbuka untuk ekstensi**, namun **tertutup untuk modifikasi**. Dengan menerapkan prinsip ini, kita mencegah adanya modifikasi kode yang sudah ada dan potensi bug baru dalam aplikasi yang sejauh ini berjalan dengan baik.
+
+    Tentunya, memperbaiki bug dalam kode yang sudah ada menjadi kondisi pengecualian pada prinsip ini.
+
+    Sebagai contoh, kita membuat aplikasi yang memiliki sebuah *class* Piano yang lengkap (bahkan kekuatan pedalnya diatur di *class*!).
+
+    ```java
+    public class Piano {
+        private String brand;
+        private String model;
+        private int keys;
+        private int pedal;
+
+        //Konstruktor, getter, dan setter
+    }
+    ```
+
+    Tak lama, aplikasi diluncurkan dan semua pengguna menyukainya. Setelah beberapa bulan, sebuah ide muncul sebagai bentuk improvisasi; "kayaknya enak nih kalau pianonya punya warna kustom!"
+
+    Pada saat ini, mungkin kita tergoda untuk membuka *class* Piano dan menambahkan warna kustom. Tapi tunggu; tentunya hal ini menyalahi prinsip *Open-Closed*! Siapa tahu akan ada kesalahan yang mungkin muncul dalam aplikasi kita setelah kita melakukan hal tersebut.
+
+    Sebagai gantinya, mari kita tetap mematuhi prinsip *open-closed* dan hanya memperluas *class* Piano yang telah dibuat sebelumnya.
+
+    ```java
+    public class PianoWithCustomColor extends Piano {
+        private String customColor;
+
+        //Konstruktor, getter, dan setter
+    }
+    ```
+
+    Dengan memperluas *class* Piano melalui ekstensi, kita dapat memastikan bahwa kode aplikasi yang sudah ada tidak akan terpengaruh oleh kode yang baru saja dibuat.
+
+    > Penerapan *Open-Closed* berhasil!
 
 3. **L**iskov Substitution
 
