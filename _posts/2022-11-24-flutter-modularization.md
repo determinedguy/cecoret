@@ -88,8 +88,7 @@ Setelah membereskan modul `about`, daftarkan *package* ke dalam `pubspec.yaml` m
 dependencies:
   flutter:
     sdk: flutter
- 
- 
+  
   … 
   about:
     path: about
