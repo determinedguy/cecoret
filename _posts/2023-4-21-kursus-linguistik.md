@@ -22,7 +22,7 @@ Dulu sempat dua bulan kursus bahasa Prancis dan Jepang secara daring pas semeste
 
 Tapi sejujurnya, aku juga masih penasaran sama lingustik; *sure*, aku suka belajar bahasa, *but it would be nice for me to get a grip about the science of language, which is linguistics*. Sayangnya, sejauh ini belum ada aplikasi yang dapat mengajarkan ilmu linguistik secara ringan dan sangat kecil kemungkinan untuk mempelajari ilmu linguistik di luar lingkungan akademik.
 
-Nah sekarang, aku baru kepikiran *what if I design myself a learning path that resembles myself taking a minor in lingustics*? *What if I utlize online courses that relate to linguistics and try to get certificates from these courses*? Daripada kepikiran dan kepo terus-menerus terus jadinya nyesel nggak nyoba, kan?
+Nah sekarang, aku baru kepikiran *what if I design myself a learning path that resembles myself taking a minor in lingustics*? *What if I utilize online courses that relate to linguistics and try to get certificates from these courses*? Daripada kepikiran dan kepo terus-menerus terus jadinya nyesel nggak nyoba, kan?
 
 > And I think it's not a bad idea!
 
