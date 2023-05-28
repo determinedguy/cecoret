@@ -890,8 +890,8 @@ Sayangnya, beberapa universitas yang menyediakan minor di psikologi seperti Hunt
 
     **Program Requirements**
 
-    [Minor Map (Archives)](https://degrees.apps.asu.edu/minors/major/ASU00/LAPGSMIN/psychology#)
-    [2023 - 2024 Minor Map](https://degrees.apps.asu.edu/minor-map/ASU00/LAPGSMIN/null/ALL/2023)
+    - [Minor Map (Archives)](https://degrees.apps.asu.edu/minors/major/ASU00/LAPGSMIN/psychology#)
+    - [2023 - 2024 Minor Map](https://degrees.apps.asu.edu/minor-map/ASU00/LAPGSMIN/null/ALL/2023)
 
     The minor in psychology consists of completing 18-19 credit hours of coursework in psychology. Twelve credit hours must be completed at the upper-division level, of which at least six credit hours must be completed in courses offered by The College of Liberal Arts and Sciences Department of Psychology. All courses for the minor must be completed with a grade of "C" (2.00 on a 4.00 scale) or better.
 
@@ -901,24 +901,24 @@ Sayangnya, beberapa universitas yang menyediakan minor di psikologi seperti Hunt
 
     **Minor Electives -- 15 credit hours**
 
-    [PSY 290: Research Methods (L or SG)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=290&term=2237&honors=F) (4)
-    [PSY 302: The Psychology of Positive Leadership](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=302&term=2237&honors=F) (3)
-    [PSY 315: Personality Theory and Research (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=315&term=2237&honors=F) (3)
-    [PSY 320: Learning and Motivation](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=320&term=2237&honors=F) (3)
-    [PSY 323: Sensation and Perception](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=323&term=2237&honors=F) (3)
-    [PSY 324: Memory and Cognition](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=324&term=2237&honors=F) (3)
-    [PSY 325: Physiological Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=325&term=2237&honors=F) (3)
-    [PSY 330: Statistical Methods (CS)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=330&term=2237&honors=F) (3)
-    [PSY 335: Positive Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=335&term=2237&honors=F) (3)
-    [PSY 341: Developmental Psychology (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=341&term=2237&honors=F) (3)
-    [PSY 350: Social Psychology (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=350&term=2237&honors=F) (3)
-    [PSY 366: Psychological Disorders (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=366&term=2237&honors=F) (3)
-    [PSY 370: Interpersonal Relationships (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=370&term=2237&honors=F) (3)
-    [PSY 390: Experimental Psychology (L)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=390&term=2237&honors=F) (3)
-    [PSY 394: Consumer Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
-    [PSY 394: Dog Behavior](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
-    [PSY 394: Foundations of Human Sexual Behavior](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
-    [PSY 394: Sleep and Dreaming](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
+    - [PSY 290: Research Methods (L or SG)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=290&term=2237&honors=F) (4)
+    - [PSY 302: The Psychology of Positive Leadership](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=302&term=2237&honors=F) (3)
+    - [PSY 315: Personality Theory and Research (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=315&term=2237&honors=F) (3)
+    - [PSY 320: Learning and Motivation](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=320&term=2237&honors=F) (3)
+    - [PSY 323: Sensation and Perception](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=323&term=2237&honors=F) (3)
+    - [PSY 324: Memory and Cognition](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=324&term=2237&honors=F) (3)
+    - [PSY 325: Physiological Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=325&term=2237&honors=F) (3)
+    - [PSY 330: Statistical Methods (CS)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=330&term=2237&honors=F) (3)
+    - [PSY 335: Positive Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=335&term=2237&honors=F) (3)
+    - [PSY 341: Developmental Psychology (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=341&term=2237&honors=F) (3)
+    - [PSY 350: Social Psychology (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=350&term=2237&honors=F) (3)
+    - [PSY 366: Psychological Disorders (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=366&term=2237&honors=F) (3)
+    - [PSY 370: Interpersonal Relationships (SB)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=370&term=2237&honors=F) (3)
+    - [PSY 390: Experimental Psychology (L)](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=390&term=2237&honors=F) (3)
+    - [PSY 394: Consumer Psychology](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
+    - [PSY 394: Dog Behavior](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
+    - [PSY 394: Foundations of Human Sexual Behavior](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
+    - [PSY 394: Sleep and Dreaming](https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=394&term=2237&honors=F) (3)
 
     Prerequisite courses may be needed in order to complete the requirements of this minor.
 
