@@ -51,13 +51,13 @@ categories: [Personal, Summer School, Polish, Language, Notes]
 
 Jak się masz? (How are you?)
 
-- (+++) Fantastycznie / Świetnie
-- (++) Bardzo dobrze
+- (+ + +) Fantastycznie / Świetnie
+- (+ +) Bardzo dobrze
 - (+) Dobrze
-- (+-) Jako tako / Tak sobie
+- (+ -) Jako tako / Tak sobie
 - (-) Źle
-- (--) Bardzo źle
-- (---) Fatalnie
+- (- -) Bardzo źle
+- (- - -) Fatalnie
 
 ## Number
 
@@ -76,28 +76,49 @@ Jak się masz? (How are you?)
 ## Short Conversation (Informal)
 
 A: Cześć!
+
 B: Cześć!
+
 A: Mam na imię Muhammad. A ty?
+
 B: Mam na imię Ahmad.
+
 A: Jak się nazywasz?
+
 B: Nazywam się Muhammad Athallah. A ty?
+
 A: Nazywam się Fulan, Ahmad Fulan. Miło mi.
+
 B: Mnie też.
+
 A: Jak się masz?
+
 B: Dobrze, dziękuję. A ty?
+
 A: Tak sobie, dziękuję.
+
 B: Przepraszam, jaki jest twój numer telefonu?
+
 A: Mój numer to osiem-osiem-trzy-pięć-dziewięć-szećź.
+
 A: Dziękuję bardzo. Cześć!
+
 B: Cześć!
 
 ## Short Conversation (Formal)
 
 A: Dzień dobry!
+
 B: Dzień dobry!
+
 A: Mam na imię Muhammad. Jak pani ma na imię?
+
 B: Mam na imię Natalia. Jak pan się nazywa?
+
 B: Nazywam się Muhammad Athallah. Jak pani ma na imię?
+
 A: Nazywam się Natalia Kowalska. Miło mi.
+
 B: Mnie też. Do widzenia!
+
 A: Do widzenia!
