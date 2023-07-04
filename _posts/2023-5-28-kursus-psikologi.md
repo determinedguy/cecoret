@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Minor (Kursus) Psikologi, Hehe.
-categories: [Language, Psychology, Online Course, Never-Ending Learning]
+categories: [Psychology, Online Course, Never-Ending Learning]
 ---
 
 ## Here comes one of my former dreams.
