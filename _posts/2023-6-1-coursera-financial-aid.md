@@ -41,3 +41,5 @@ Terdapat dua bagian pada formulir, yakni informasi latar belakang dan pertanyaan
     2. How will your selected course help with your goals?
 
     Pertanyaan pertama berupa isian singkat atau *slider* dan pertanyaan terakhir berupa esai dengan kriteria minimal 150 kata.
+
+## Ada tips cara ngisi esainya nggak?
