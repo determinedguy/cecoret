@@ -9,27 +9,12 @@
 This repository serves Muhammad Athallah's personal blog.
 
 # Table of Contents
-  - [Categories](#categories)
-  - [RSS](#rss)
-  - [Sitemap](#sitemap)
   - [License](#license)
   - [Website Theme](#website-theme)
 
-## Categories
-
-You can access contents' categories here: <https://determinedguy.github.io/cecoret/categories>
-
-## RSS
-
-You can access (generated) RSS Feed of the website here: <https://determinedguy.github.io/cecoret/feed>
-
-## Sitemap
-
-You can access (generated) sitemap of the website here: <https://determinedguy.github.io/cecoret/sitemap>
-
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ## Website Theme
 
