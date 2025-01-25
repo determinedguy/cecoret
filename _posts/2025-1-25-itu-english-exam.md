@@ -10,6 +10,8 @@ You can access general information [here](https://www.sis.itu.edu.tr/onkayitlar/
 
 ## Exam Format
 
+Paper-based (LOL).
+
 ITU English Proficiency Exam 1st Session (120 minutes)
 
 <table><thead>
