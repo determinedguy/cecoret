@@ -80,7 +80,7 @@ O zaman merak etme.
 
 Just do [the newest sample exam](https://ydy.itu.edu.tr/docs/librariesprovider95/default-document-library/sample-exam.zip?sfvrsn=dd1e5654_0), don't bother with the older one since the exam format has been revised.
 
-The most recent "leak" I could find is from the June 2023 session:
+The most recent "leak" I could find is from the June 2023 session (no audio, though, *maalesef*):
 
 - [Session 1](https://www.scribd.com/document/712503292/ITU-SFL-2023-2024-MOCK-PROFICIENCY-SESSION-I-JUNE-2023-EXAM-2) [Backup](nanti)
 - [Session 2](https://www.scribd.com/document/703597709/ITU-SFL-2023-2024-MOCK-PROFICIENCY-SESSION-II-JUNE-2023-EXAM-2) [Backup](nanti)
