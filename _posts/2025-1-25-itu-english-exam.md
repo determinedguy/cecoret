@@ -49,6 +49,15 @@ You can check about the fee (*selamlar*) and the payment information [here](http
 
 ## 1st Session (1. Aşama)
 
+Mine:
+
+Exam Date and Time
+
+The exam will be administered face-to-face at İTÜ Ayazağa Campus.
+
+- Session 1: 20 January 2025 - 09.30 am
+- Session 2: 23 January 2025 - 09.30 am (Only for those who are eligible)
+
 ## 2nd Session (2. Aşama)
 
 *put that şaşırdım part yadda yadda yadda*
