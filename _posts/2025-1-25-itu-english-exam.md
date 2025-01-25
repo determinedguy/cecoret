@@ -35,6 +35,10 @@ So, aim for 65 at least; or 75 for undergrads (geçmiş olsun).
 
 > pahalı yani.
 
+Mine:
+
+Registration Dates: 31 December 2024 10:00 - 14 January 2025 17:00 ( UTC/GMT+3 )
+
 Generally, the required documents are:
 
 - İkamet Card
