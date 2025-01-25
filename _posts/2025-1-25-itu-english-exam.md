@@ -21,7 +21,9 @@ Basically, it looks like this.
 | Non-Thesis Master’s Degree (2nd Education)                 | 55 / 100       |
 | Master’s Degree (with Thesis / 1st education (non-thesis)) | 65 / 100       |
 
-You can check for the full information [here](https://www.sis.itu.edu.tr/EN/regulations/valid-english-tests-and-minimum-scores.php).
+You can check the score information [here](https://www.sis.itu.edu.tr/EN/regulations/valid-english-tests-and-minimum-scores.php).
+
+You can check the details of English courses for undergraduate programs [here](https://ydy.itu.edu.tr/en/programs/advanced-english).
 
 It would be better to have a high score from the first shot because it will be beneficial if you want to do Erasmus; [look here](https://erasmus.itu.edu.tr/en/student-mobility-for-studies/ka131-program_countries/outgoing/application).
 
