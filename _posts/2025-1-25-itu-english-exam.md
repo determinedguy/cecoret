@@ -1,6 +1,6 @@
 ---
 layout: post
-title: İTÜ [English] Proficiency Examination
+title: İTÜ (English) Proficiency Examination
 categories: [Kuliah, Language, Ujian, Never-Ending Learning]
 ---
 
@@ -12,8 +12,18 @@ You can check about the revised model [here](https://ydy.itu.edu.tr/en/programs/
 
 ## Passing Score
 
-[here](https://www.sis.itu.edu.tr/EN/regulations/valid-english-tests-and-minimum-scores.php).
-Good to have a high point from the first shot because it will be beneficial if you want to do Erasmus ([look this up](https://erasmus.itu.edu.tr/en/student-mobility-for-studies/ka131-program_countries/outgoing/application)).
+Basically, it looks like this.
+
+| Program                                                    | Minimum Score  |
+|------------------------------------------------------------|----------------|
+| Undergraduate                                              | 60 – 74 / 100  |
+| Undergraduate (exempted from ING 100)                      | 75 – 100 / 100 |
+| Non-Thesis Master’s Degree (2nd Education)                 | 55 / 100       |
+| Master’s Degree (with Thesis / 1st education (non-thesis)) | 65 / 100       |
+
+You can check for the full information [here](https://www.sis.itu.edu.tr/EN/regulations/valid-english-tests-and-minimum-scores.php).
+
+It would be better to have a high score from the first shot because it will be beneficial if you want to do Erasmus; [look here](https://erasmus.itu.edu.tr/en/student-mobility-for-studies/ka131-program_countries/outgoing/application).
 
 > As a minimum requirement for the foreign language score, students must meet the condition of a score of 65/100, which corresponds to the B1 level of the Common European Framework of Reference for Languages (CEFR).
 
@@ -30,6 +40,10 @@ Generally, the required documents are:
 - Photo
 
 You can only use pencil in the test.
+
+I paid for 550 TL (about IDR 250.000 at the payment time) under the "İTÜ Yüksek Lisans Beklemeli Öğrenci (ITU Graduate Students Who Are Currently Suspended)" category.
+
+You can check about the fee (*selamlar*) and the payment information [here](https://www.sis.itu.edu.tr/onkayitlar/english_exam/basvuru/index.php?islem=sinav_ucreti).
 
 ## What about 2nd Session (2. Aşama)?
 
@@ -52,4 +66,4 @@ The most recent "leak" I could find is from the June 2023 session:
 
 [Test Atölyesi](https://www.testatolyesi.com/) might works for you, but idk; just found out as well.
 
-If you can understand Turkish (Türkçe biliyor musun?), you can watch [this YouTube playlist from Test Atölyesi](https://www.youtube.com/playlist?list=PL2bn6xXECq8UMjqjBSCIvGYwLFknHhJ1I).
+If you can understand Turkish (*Türkçe biliyor musun?*), you can watch [this YouTube playlist from Test Atölyesi](https://www.youtube.com/playlist?list=PL2bn6xXECq8UMjqjBSCIvGYwLFknHhJ1I).
