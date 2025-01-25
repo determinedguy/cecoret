@@ -8,7 +8,83 @@ categories: [Kuliah, Language, Ujian, Never-Ending Learning]
 
 You can access general information [here](https://www.sis.itu.edu.tr/onkayitlar/english_exam/index_en.php).
 
-You can check about the revised model [here](https://ydy.itu.edu.tr/en/programs/undergraduate-preparatory-program/proficiency-exam).
+## Exam Format
+
+ITU English Proficiency Exam 1st Session (120 minutes)
+
+<table><thead>
+  <tr>
+    <th>Exam Content</th>
+    <th>Number of Questions</th>
+    <th>Points for Each Question</th>
+    <th>Total Points</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="3"><b>Language Comprehension</b></td>
+    <td rowspan="3">14</td>
+  </tr>
+  <tr>
+    <td>Cloze Text</td>
+    <td>10</td>
+    <td>0.5</td>
+  </tr>
+  <tr>
+    <td>Restatement</td>
+    <td>9</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><b>Reading</b></td>
+    <td>24</td>
+    <td>1.5</td>
+    <td>36</td>
+  </tr>
+  <tr>
+    <td colspan="3"><b>Total</b></td>
+    <td>50</td>
+  </tr>
+</tbody>
+</table>
+
+ITU English Proficiency Exam 2nd Session (135 minutes)
+
+<table><thead>
+  <tr>
+    <th>Exam Content</th>
+    <th>Number of Questions</th>
+    <th>Points for Each Question</th>
+    <th>Total Points</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="3"><b>Writing</b></td>
+    <td rowspan="3">30</td>
+  </tr>
+  <tr>
+    <td>Academic Essay</td>
+    <td>1</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Integrated Task</td>
+    <td>1</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td><b>Listening</b></td>
+    <td>10</td>
+    <td>2</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td colspan="3"><b>Total</b></td>
+    <td>50</td>
+  </tr>
+</tbody>
+</table>
+
+You can check about the details of the (revised) model [here](https://ydy.itu.edu.tr/en/programs/undergraduate-preparatory-program/proficiency-exam).
 
 ## Passing Score
 
