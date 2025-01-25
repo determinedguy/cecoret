@@ -51,3 +51,5 @@ The most recent "leak" I could find is from the June 2023 session:
 - [Session 2](https://www.scribd.com/document/703597709/ITU-SFL-2023-2024-MOCK-PROFICIENCY-SESSION-II-JUNE-2023-EXAM-2) [Backup](nanti)
 
 [Test Atölyesi](https://www.testatolyesi.com/) might works for you, but idk; just found out as well.
+
+If you can understand Turkish (Türkçe biliyor musun?), you can watch [this YouTube playlist from Test Atölyesi](https://www.youtube.com/playlist?list=PL2bn6xXECq8UMjqjBSCIvGYwLFknHhJ1I).
