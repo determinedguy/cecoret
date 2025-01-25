@@ -45,9 +45,15 @@ I paid for 550 TL (about IDR 250.000 at the payment time) under the "İTÜ Yüks
 
 You can check about the fee (*selamlar*) and the payment information [here](https://www.sis.itu.edu.tr/onkayitlar/english_exam/basvuru/index.php?islem=sinav_ucreti).
 
-## What about 2nd Session (2. Aşama)?
+## 1st Session (1. Aşama)
+
+## 2nd Session (2. Aşama)
 
 *put that şaşırdım part yadda yadda yadda*
+
+1. Academic Writing Task 60 minutes
+2. Integrated Task (Read + Listen + [Write 30 minutes])
+3. Listening and Note-Taking Task (Listen and take notes first, then the questions will be distributed later)
 
 ## Resources
 
