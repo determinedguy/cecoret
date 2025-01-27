@@ -117,6 +117,8 @@ Mine:
 
 Registration Dates: 31 December 2024 10:00 - 14 January 2025 17:00 ( UTC/GMT+3 )
 
+You can check the registration dates by searching **English Proficiency Exam Registration** from [the academic calendar](https://www.takvim.sis.itu.edu.tr/AkademikTakvim/EN/academic-calendar/).
+
 Generally, the required documents are:
 
 - İkamet Card
